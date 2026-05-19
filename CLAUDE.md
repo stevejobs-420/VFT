@@ -29,6 +29,17 @@ A closed web app where a group of friends each fill out the complete tournament 
 - No i18n framework for MVP. Write Czech strings inline in components, or centralize in a single `lib/strings.ts` if a string is reused across pages.
 - Team names: use the canonical Czech form where it exists (e.g. "Německo", "Španělsko", "Spojené státy"). Source the list at seeding time.
 
+## Planning convention
+
+Before starting a non-trivial PR (multi-file, architectural, or a step in `ARCHITECTURE.md` "Scaffolding order"), invoke the `planner` subagent. It writes a plan to `.claude/output/plan/NN-{slug}.md` with sections: Context, Approach, Files, Verification, Out of scope. Plans are committed to the repo so future sessions can pick up cold.
+
+**Auto-invoke planner when:**
+- Starting a new PR from `ARCHITECTURE.md` scaffolding order.
+- User says "keep going" / "what's next" after a commit lands.
+- A task spans multiple files or has architectural implications.
+
+**Skip planner for:** single-line / single-file edits, config or dotfile tweaks, questions and explanations.
+
 ## Tournament Format (WC 2026)
 - 48 teams, 12 groups of 4 (A–L), 104 matches total (72 group + 32 knockout)
 - Top 2 from each group + 8 best 3rd-placed teams advance to R32
