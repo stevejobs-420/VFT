@@ -14,7 +14,7 @@ A closed web app for a group of friends to predict exact scores for every match 
 | Frontend + Backend | Next.js (App Router) | Single repo, React frontend + API routes |
 | Styling | CSS Modules | Plain CSS scoped per component, no framework |
 | Auth + Database | Supabase | Managed PostgreSQL + magic link / Google auth |
-| Football data | football-data.org (free tier) | WC schedule + live results |
+| Football data | football-data.org (free tier) | WC schedule + live results — WC 2026 confirmed in free tier (10 req/min, 12 competitions) |
 | Hosting | Vercel (free tier) | Native Next.js support, serverless, cron jobs |
 | Domain | Subdomain via active24.cz | CNAME → Vercel |
 
@@ -25,8 +25,44 @@ A closed web app for a group of friends to predict exact scores for every match 
 - **Primary:** Magic link (email) — user enters email, clicks link, session persists for the duration of the tournament
 - **Secondary:** Google OAuth — one-click alternative
 - Sessions managed entirely by Supabase, stored in browser
-- Public signups disabled — users are manually added or invited by admin
+- Public signups disabled — users are manually added or invited by admin (exact admin flow TBD — likely via Supabase dashboard for MVP)
 - No passwords anywhere
+
+---
+
+## Tournament Structure (WC 2026)
+
+- **48 teams**, divided into **12 groups of 4** (A–L)
+- **104 total matches:** 72 group + 32 knockout (R32 → R16 → QF → SF → 3rd-place playoff + Final)
+  - Note: the 3rd-place playoff exists. Decide whether to include it in predictions — current spec says "32 knockout matches" which excludes it. Keep excluded for MVP simplicity.
+- **Advancement to R32:** top 2 from each group (24 teams) + the **8 best third-placed teams** across all groups (32 total).
+
+### FIFA group-stage tiebreaker order (for deriving predicted standings)
+When two or more teams in a group are tied on points, apply in order:
+1. Points in head-to-head matches among tied teams
+2. Goal difference in head-to-head matches among tied teams
+3. Goals scored in head-to-head matches among tied teams
+4. Goal difference across all group matches
+5. Goals scored across all group matches
+6. Fair-play (disciplinary) score across all group matches
+7. FIFA world ranking
+
+Steps 6 and 7 are not derivable from score predictions alone. **For MVP, stop at step 5** and break any remaining ties by alphabetical team name (deterministic, transparent to users). Document this choice clearly in the UI.
+
+### Third-placed-team ranking (across all 12 groups)
+Used to pick the 8 best 3rd-placed teams that advance to R32. Order: points → GD → goals scored → fair play → FIFA ranking. Same MVP shortcut: stop at goals scored, break ties alphabetically.
+
+### R32 bracket pairings
+FIFA defines the R32 slot map in **Annex C** of the tournament regulations — there are **495 possible bracket layouts** depending on which 8 of the 12 third-placed teams qualify. Final official pairings lock on **June 27, 2026** (after the group stage).
+
+**Implication for our app:** the user's R32 bracket cannot be auto-seeded purely from their group-stage scores until the third-placed-team logic resolves which 8 of their predicted 3rd-placed teams advance, and the matching Annex C layout is selected. The bracket-derivation pipeline is:
+
+1. Derive each group's 1st/2nd/3rd/4th from user's 72 score predictions (FIFA tiebreakers).
+2. Rank all 12 third-placed teams; take top 8.
+3. Look up the matching Annex C layout for which 8 groups produced 3rd-placed qualifiers.
+4. Fill R32 slots → user then predicts knockout scores from R32 onward.
+
+The Annex C table will need to be stored in the app (likely a static JSON keyed by the set of qualifying 3rd-place group letters).
 
 ---
 
@@ -142,7 +178,7 @@ reason          text    -- 'exact_score', 'goal_difference', 'correct_result',
 | SF | 7 |
 | Final | 10 |
 
-Team advancement points stack on top of match result points.
+Team advancement points stack on top of match result points. **Final advancement (10 pts) is awarded per finalist** — predicting both finalists correctly = 20 pts of advancement points (in addition to the 30-pt champion bonus and the match-result points for the Final itself).
 
 ### Tournament champion
 | | Points |
@@ -153,9 +189,9 @@ Stacks on top of everything else. Max payout for nailing the champion + exact fi
 
 ### Knockout bracket approach
 - **Option A:** bracket flows from group stage predictions
-- App derives user's predicted group standings from their 72 score predictions
+- App derives user's predicted group standings from their 72 score predictions (see Tournament Structure section for the FIFA tiebreaker pipeline + Annex C R32 mapping)
 - App auto-seeds their R32 bracket based on those standings
-- User fills in winners + exact scores for each subsequent round
+- User fills in winners + exact scores for each subsequent round (R32 → Final)
 - Points awarded **based on team** (not slot) — if user predicted Brazil wins the SF and Brazil wins the SF, points awarded regardless of which path they took
 - Exact scores required for all knockout matches
 
@@ -207,14 +243,38 @@ Every subsequent visit → automatically logged in
 | Page | Description |
 |---|---|
 | `/` | Login (magic link + Google) |
-| `/predict` | Fill in exact scores for all 104 matches |
-| `/dashboard` | Leaderboard — all users ranked by total points |
+| `/predict` | Fill in exact scores for all 104 matches. Group stage → derived standings preview → R32 bracket (auto-seeded) → knockout scores up to Final. **Pin a "Your champion: 🇧🇷 Brazil — 30 pts" banner** prominently once the Final winner is filled in, so the high-stakes pick feels weighty. |
+| `/dashboard` | Leaderboard — all users ranked by total points. Show each user's predicted champion alongside their row. |
 | `/matches` | Full schedule with results and your prediction next to each |
 
 ---
 
 ## Out of Scope (MVP)
+- 3rd-place playoff predictions (the match exists, but excluded from our prediction pool for simplicity)
 - Stats and trends (post-MVP)
 - Push notifications
 - Live score updates (polling on refresh is fine)
 - Mobile app
+
+---
+
+## Scaffolding order (recommended first PRs)
+
+1. **Next.js + TypeScript init** (App Router, CSS Modules, no Tailwind). Empty pages for `/`, `/predict`, `/dashboard`, `/matches`.
+2. **Supabase project + schema migration.** Tables: `teams`, `matches`, `predictions`, `points`, optional `profiles`. RLS policies: users read all, write only their own predictions.
+3. **Seed data.** Populate `teams` (48 teams + group letters) and `matches` (72 group matches with kickoff times + 32 knockout placeholders with `home_slot_label`/`away_slot_label`). Source: football-data.org once draw is final, or hand-loaded JSON if API lags.
+4. **Auth.** Supabase magic link + Google OAuth. Session provider in root layout. Admin user provisioning via Supabase dashboard.
+5. **Annex C R32 mapping.** Static JSON: keyed by sorted tuple of qualifying 3rd-place group letters → R32 slot assignments. Source: FIFA tournament regulations Annex C (495 entries).
+6. **Bracket derivation engine** (`lib/bracket.ts`). Pure function: `(predictions[]) → { groupStandings, r32Layout, knockoutSlots }`. Heavily unit-tested.
+7. **`/predict` page.** Group-stage form → live-derived standings preview → R32 auto-seed → knockout score inputs → champion banner.
+8. **Results sync cron** (`/api/results`). Hourly during tournament, lock predictions on kickoff.
+9. **Points engine** (`/api/points`). Idempotent recompute keyed by `match_id`. Reasons enumerated in the `points.reason` column.
+10. **`/dashboard` + `/matches` pages.** Read-only views over computed points.
+
+---
+
+## Open questions / decisions deferred
+- **Admin user provisioning:** currently planned via Supabase dashboard. Decide if a CLI script or in-app admin UI is needed.
+- **FIFA tiebreaker steps 6–7** (fair play, world ranking) aren't derivable from score predictions — MVP truncates at goals scored + alphabetical fallback. Confirm UX-wise this is acceptable.
+- **Champion-pick re-vote if final teams differ from group-stage derivation?** Decided: no — user's bracket is whatever flows from their predictions, no overrides.
+- **Late joiners after tournament starts:** spec says no — all locked at kickoff of first match. Reaffirm if anyone asks.

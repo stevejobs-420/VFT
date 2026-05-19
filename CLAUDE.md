@@ -20,13 +20,20 @@ A closed web app where a group of friends each fill out the complete tournament 
 - **Vercel** — hosting, free tier, built-in cron jobs for result syncing
 - **Subdomain** via active24.cz → Vercel CNAME
 
+## Tournament Format (WC 2026)
+- 48 teams, 12 groups of 4 (A–L), 104 matches total (72 group + 32 knockout)
+- Top 2 from each group + 8 best 3rd-placed teams advance to R32
+- 3rd-place playoff exists but is **excluded** from our prediction pool
+- See `ARCHITECTURE.md` for the FIFA tiebreaker order and Annex C R32 mapping details
+
 ## Prediction Format
 - Users predict **exact scores** for every match — all 72 group stage + all 32 knockout matches
 - Everything locked before the tournament starts, no changes allowed after
 - Bracket flows from group stage predictions:
-  - App derives predicted group standings from user's 72 score predictions (using FIFA tiebreaker rules)
-  - App auto-seeds the R32 bracket from those standings
-  - User fills in exact scores for all knockout rounds
+  - App derives predicted group standings from user's 72 score predictions (using FIFA tiebreakers; MVP truncates the rule chain at "goals scored" and falls back to alphabetical order)
+  - App ranks all 12 predicted 3rd-placed teams; top 8 advance
+  - App auto-seeds the R32 bracket via FIFA's Annex C layout (495 possible permutations, indexed by which 8 groups produced 3rd-placed qualifiers)
+  - User fills in exact scores for all knockout rounds (R32 → Final)
   - Points awarded based on **team** (not slot)
 
 ## Points System (finalised)
@@ -53,7 +60,7 @@ A closed web app where a group of friends each fill out the complete tournament 
 | R16 | 4 |
 | QF | 5 |
 | SF | 7 |
-| Final | 10 |
+| Final | 10 (per finalist — predicting both finalists correctly = 20 pts) |
 
 **Tournament champion (stacks on top of everything else):**
 | | Points |
@@ -64,5 +71,6 @@ Maximum possible payout for nailing the champion + exact final score: **30 (cham
 
 ## Status
 - Repo initialized, full architecture documented in `ARCHITECTURE.md`
-- All decisions finalised — ready to scaffold
-- **Next step:** scaffold Next.js + Supabase project
+- All design decisions finalised — ready to scaffold
+- football-data.org confirmed: WC 2026 included in free tier (10 req/min)
+- **Next step:** start coding in VS Code. See `ARCHITECTURE.md` → "Scaffolding order" for the recommended PR sequence (Next.js init → Supabase schema → seed data → auth → Annex C JSON → bracket engine → predict page → results cron → points engine → dashboard).
