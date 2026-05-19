@@ -138,7 +138,7 @@ reason          text    -- 'exact_score', 'goal_difference', 'correct_result',
 | SF | 7 |
 | Final | 10 |
 
-Team advancement points stack on top of match result points. Getting the champion right with the exact final score is worth **17 points** (10 + 5 + 2 for result... wait, exact score already implies correct result — so 10 + 5 = 15 pts max for the final).
+Team advancement points stack on top of match result points. Getting the champion right with the exact final score is worth **15 points** (10 advancement + 5 exact score).
 
 ### Knockout bracket approach
 - **Option A:** bracket flows from group stage predictions
