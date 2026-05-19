@@ -249,6 +249,14 @@ Every subsequent visit → automatically logged in
 
 ---
 
+## Language
+
+All user-facing UI text is in **Czech** (buttons, labels, headings, error messages, emails). Code, comments, identifiers, and these docs stay in English. Tone is informal — "ty" / "tvůj" — since it's a friends-only app.
+
+No i18n framework needed for MVP — write Czech strings inline. If a string is reused across pages, lift it into `lib/strings.ts`. Team names use canonical Czech forms (Německo, Španělsko, Spojené státy, etc.); source the list during the team-seeding step.
+
+---
+
 ## Out of Scope (MVP)
 - 3rd-place playoff predictions (the match exists, but excluded from our prediction pool for simplicity)
 - Stats and trends (post-MVP)

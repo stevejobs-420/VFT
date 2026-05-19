@@ -20,6 +20,13 @@ A closed web app where a group of friends each fill out the complete tournament 
 - **Vercel** — hosting, free tier, built-in cron jobs for result syncing
 - **Subdomain** via active24.cz → Vercel CNAME
 
+## Language
+- **All user-facing UI text in Czech.** Buttons, labels, headings, error messages, emails — everything the user reads.
+- Code, identifiers, comments, commit messages, and docs stay in English.
+- Tone: informal ("ty" / "tvůj"), since this is a friends-only app — not formal "vy".
+- No i18n framework for MVP. Write Czech strings inline in components, or centralize in a single `lib/strings.ts` if a string is reused across pages.
+- Team names: use the canonical Czech form where it exists (e.g. "Německo", "Španělsko", "Spojené státy"). Source the list at seeding time.
+
 ## Tournament Format (WC 2026)
 - 48 teams, 12 groups of 4 (A–L), 104 matches total (72 group + 32 knockout)
 - Top 2 from each group + 8 best 3rd-placed teams advance to R32
