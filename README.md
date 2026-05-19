@@ -30,6 +30,16 @@ npx supabase link --project-ref <project-ref>
 npx supabase db push
 ```
 
+## Seeding data
+
+Once Supabase is set up and the migration is applied, populate teams and matches from football-data.org:
+
+```sh
+npm run seed
+```
+
+Requires `FOOTBALL_DATA_API_KEY` + `SUPABASE_SERVICE_ROLE_KEY` in `.env.local`. Idempotent (upsert on `api_team_id` / `api_match_id`) — safe to re-run any time.
+
 ## Stack
 
 Next.js 16 (App Router) · TypeScript · CSS Modules · Supabase (Postgres + Auth) · football-data.org · Vercel.

@@ -10,6 +10,7 @@ create table teams (
   name text not null unique,
   group_letter text not null check (group_letter ~ '^[A-L]$'),
   flag_url text,
+  api_team_id int unique,
   created_at timestamptz not null default now()
 );
 
@@ -22,7 +23,7 @@ create index teams_group_idx on teams(group_letter);
 -- ============================================================
 create table matches (
   id uuid primary key default gen_random_uuid(),
-  stage text not null check (stage in ('group', 'r32', 'r16', 'qf', 'sf', 'final')),
+  stage text not null check (stage in ('group', 'r32', 'r16', 'qf', 'sf', 'third_place', 'final')),
   home_team_id uuid references teams(id),
   away_team_id uuid references teams(id),
   home_slot_label text,
