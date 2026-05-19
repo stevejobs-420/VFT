@@ -86,13 +86,15 @@ api_match_id    text        -- ID from football-data.org
 
 ### `predictions`
 ```
-id              uuid
-user_id         uuid → auth.users
-match_id        uuid → matches
-home_score      int
-away_score      int
-submitted_at    timestamptz
-locked          bool        -- true once match kicks off
+id                      uuid
+user_id                 uuid → auth.users
+match_id                uuid → matches
+predicted_home_team_id  uuid → teams   -- null for group stage (teams already known)
+predicted_away_team_id  uuid → teams   -- null for group stage (teams already known)
+home_score              int
+away_score              int
+submitted_at            timestamptz
+locked                  bool           -- true once tournament starts
 ```
 
 ### `points`
@@ -101,21 +103,50 @@ id              uuid
 user_id         uuid → auth.users
 match_id        uuid → matches
 points          int
-reason          text        -- 'exact_score', 'correct_result', etc.
+reason          text    -- 'exact_score', 'goal_difference', 'correct_result',
+                        --  'correct_advancement_r32', 'correct_advancement_r16',
+                        --  'correct_advancement_qf', 'correct_advancement_sf',
+                        --  'correct_advancement_final', 'group_winner',
+                        --  'correct_top2', 'correct_full_standings'
 ```
 
 ---
 
-## Points System (to be finalised)
+## Points System
 
-| Prediction | Points |
+### Per match — mutually exclusive tiers (group stage + knockout)
+| Accuracy | Points |
 |---|---|
-| Correct exact score | 5 |
+| Wrong result | 0 |
 | Correct result (win/draw/loss) | 2 |
-| Group stage position (TBD) | TBD |
-| Knockout stage advancement (TBD) | TBD |
+| Correct goal difference, not exact score (e.g. predicted 3-2, ended 2-1) | 3 |
+| Correct exact score | 5 |
 
-**Open question:** Do users predict knockout bracket upfront (who wins each QF/SF/Final), or does the bracket fill in dynamically as teams qualify? This affects the schema.
+### Group standings (per group, after group stage completes)
+| | Points |
+|---|---|
+| Correct group winner | 3 |
+| Correct top 2 (both teams, any order) | 2 |
+| Correct full group standings (all 4 positions) | 5 bonus |
+
+### Knockout stage — team advancement (awarded when correct team appears in that round)
+| Round | Points for correct team |
+|---|---|
+| R32 | 2 |
+| R16 | 4 |
+| QF | 5 |
+| SF | 7 |
+| Final | 10 |
+
+Team advancement points stack on top of match result points. Getting the champion right with the exact final score is worth **17 points** (10 + 5 + 2 for result... wait, exact score already implies correct result — so 10 + 5 = 15 pts max for the final).
+
+### Knockout bracket approach
+- **Option A:** bracket flows from group stage predictions
+- App derives user's predicted group standings from their 72 score predictions
+- App auto-seeds their R32 bracket based on those standings
+- User fills in winners + exact scores for each subsequent round
+- Points awarded **based on team** (not slot) — if user predicted Brazil wins the SF and Brazil wins the SF, points awarded regardless of which path they took
+- Exact scores required for all knockout matches
 
 ---
 
