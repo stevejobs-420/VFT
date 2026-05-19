@@ -105,6 +105,28 @@ npm run seed
 
 Requires `FOOTBALL_DATA_API_KEY` + `SUPABASE_SERVICE_ROLE_KEY` in `.env.local`. Idempotent (upsert on `api_team_id` / `api_match_id`) — safe to re-run any time.
 
+## Cron — synchronizace výsledků
+
+`/api/results` pulls live scores from football-data.org and locks predictions whose kickoff has passed. Idempotent — safe to re-run.
+
+**Setup:**
+
+1. Generate a secret:
+   ```sh
+   openssl rand -hex 32
+   ```
+2. Put it in `.env.local` as `CRON_SECRET=<value>` and add the same key in Vercel → Project Settings → Environment Variables.
+3. `vercel.json` already declares the schedule (`0 * * * *` — hourly at minute 0).
+
+**Manually trigger (testing):**
+```sh
+curl -H "Authorization: Bearer $CRON_SECRET" http://localhost:3000/api/results
+```
+
+Response: `{ "updated": N, "locked": M, "errors": [] }`. Without the header → `401`.
+
+**Vercel tier note:** Hobby tier only allows daily crons. For hourly, either upgrade to Pro or set up a free `cron-job.org` (or similar) job hitting `https://<your-domain>/api/results` with the same `Authorization: Bearer <secret>` header.
+
 ## Stack
 
 Next.js 16 (App Router) · TypeScript · CSS Modules · Supabase (Postgres + Auth) · football-data.org · Vercel.
