@@ -1,0 +1,6932 @@
+{
+  "EFGHIJKL": {
+    "option": 1,
+    "qualifyingGroups": "EFGHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "F",
+      "M82": "H",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "DFGHIJKL": {
+    "option": 2,
+    "qualifyingGroups": "DFGHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "I",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "DEGHIJKL": {
+    "option": 3,
+    "qualifyingGroups": "DEGHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "D",
+      "M82": "H",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "DEFHIJKL": {
+    "option": 4,
+    "qualifyingGroups": "DEFHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "DEFGIJKL": {
+    "option": 5,
+    "qualifyingGroups": "DEFGIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "I",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "DEFGHJKL": {
+    "option": 6,
+    "qualifyingGroups": "DEFGHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "DEFGHIKL": {
+    "option": 7,
+    "qualifyingGroups": "DEFGHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "I",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "DEFGHIJL": {
+    "option": 8,
+    "qualifyingGroups": "DEFGHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "DEFGHIJK": {
+    "option": 9,
+    "qualifyingGroups": "DEFGHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "CFGHIJKL": {
+    "option": 10,
+    "qualifyingGroups": "CFGHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "I",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CEGHIJKL": {
+    "option": 11,
+    "qualifyingGroups": "CEGHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "C",
+      "M82": "H",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CEFHIJKL": {
+    "option": 12,
+    "qualifyingGroups": "CEFHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "C",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CEFGIJKL": {
+    "option": 13,
+    "qualifyingGroups": "CEFGIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "I",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CEFGHJKL": {
+    "option": 14,
+    "qualifyingGroups": "CEFGHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CEFGHIKL": {
+    "option": 15,
+    "qualifyingGroups": "CEFGHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "I",
+      "M74": "C",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CEFGHIJL": {
+    "option": 16,
+    "qualifyingGroups": "CEFGHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "CEFGHIJK": {
+    "option": 17,
+    "qualifyingGroups": "CEFGHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "H",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "CDGHIJKL": {
+    "option": 18,
+    "qualifyingGroups": "CDGHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "I",
+      "M74": "C",
+      "M82": "J",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDFHIJKL": {
+    "option": 19,
+    "qualifyingGroups": "CDFHIJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "I",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDFGIJKL": {
+    "option": 20,
+    "qualifyingGroups": "CDFGIJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "I",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDFGHJKL": {
+    "option": 21,
+    "qualifyingGroups": "CDFGHJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDFGHIKL": {
+    "option": 22,
+    "qualifyingGroups": "CDFGHIKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "I",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDFGHIJL": {
+    "option": 23,
+    "qualifyingGroups": "CDFGHIJL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "CDFGHIJK": {
+    "option": 24,
+    "qualifyingGroups": "CDFGHIJK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "CDEHIJKL": {
+    "option": 25,
+    "qualifyingGroups": "CDEHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "C",
+      "M82": "H",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDEGIJKL": {
+    "option": 26,
+    "qualifyingGroups": "CDEGIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "I",
+      "M74": "C",
+      "M82": "J",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDEGHJKL": {
+    "option": 27,
+    "qualifyingGroups": "CDEGHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "H",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDEGHIKL": {
+    "option": 28,
+    "qualifyingGroups": "CDEGHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "I",
+      "M74": "C",
+      "M82": "H",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDEGHIJL": {
+    "option": 29,
+    "qualifyingGroups": "CDEGHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "H",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "CDEGHIJK": {
+    "option": 30,
+    "qualifyingGroups": "CDEGHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "H",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "CDEFIJKL": {
+    "option": 31,
+    "qualifyingGroups": "CDEFIJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "E",
+      "M74": "D",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDEFHJKL": {
+    "option": 32,
+    "qualifyingGroups": "CDEFHJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "E",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDEFHIKL": {
+    "option": 33,
+    "qualifyingGroups": "CDEFHIKL",
+    "slots": {
+      "M79": "C",
+      "M85": "E",
+      "M81": "I",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDEFHIJL": {
+    "option": 34,
+    "qualifyingGroups": "CDEFHIJL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "E",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "CDEFHIJK": {
+    "option": 35,
+    "qualifyingGroups": "CDEFHIJK",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "E",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "CDEFGJKL": {
+    "option": 36,
+    "qualifyingGroups": "CDEFGJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "E",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDEFGIKL": {
+    "option": 37,
+    "qualifyingGroups": "CDEFGIKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "E",
+      "M74": "D",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDEFGIJL": {
+    "option": 38,
+    "qualifyingGroups": "CDEFGIJL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "E",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "CDEFGIJK": {
+    "option": 39,
+    "qualifyingGroups": "CDEFGIJK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "E",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "CDEFGHKL": {
+    "option": 40,
+    "qualifyingGroups": "CDEFGHKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "E",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "CDEFGHJL": {
+    "option": 41,
+    "qualifyingGroups": "CDEFGHJL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "CDEFGHJK": {
+    "option": 42,
+    "qualifyingGroups": "CDEFGHJK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "CDEFGHIL": {
+    "option": 43,
+    "qualifyingGroups": "CDEFGHIL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "E",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "CDEFGHIK": {
+    "option": 44,
+    "qualifyingGroups": "CDEFGHIK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "E",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "CDEFGHIJ": {
+    "option": 45,
+    "qualifyingGroups": "CDEFGHIJ",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "BFGHIJKL": {
+    "option": 46,
+    "qualifyingGroups": "BFGHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "I",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BEGHIJKL": {
+    "option": 47,
+    "qualifyingGroups": "BEGHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "B",
+      "M82": "H",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BEFHIJKL": {
+    "option": 48,
+    "qualifyingGroups": "BEFHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "I",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BEFGIJKL": {
+    "option": 49,
+    "qualifyingGroups": "BEFGIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "I",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BEFGHJKL": {
+    "option": 50,
+    "qualifyingGroups": "BEFGHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "H",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BEFGHIKL": {
+    "option": 51,
+    "qualifyingGroups": "BEFGHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "F",
+      "M82": "I",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BEFGHIJL": {
+    "option": 52,
+    "qualifyingGroups": "BEFGHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "H",
+      "M77": "G",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BEFGHIJK": {
+    "option": 53,
+    "qualifyingGroups": "BEFGHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "H",
+      "M77": "G",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BDGHIJKL": {
+    "option": 54,
+    "qualifyingGroups": "BDGHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "I",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDFHIJKL": {
+    "option": 55,
+    "qualifyingGroups": "BDFHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDFGIJKL": {
+    "option": 56,
+    "qualifyingGroups": "BDFGIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDFGHJKL": {
+    "option": 57,
+    "qualifyingGroups": "BDFGHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDFGHIKL": {
+    "option": 58,
+    "qualifyingGroups": "BDFGHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDFGHIJL": {
+    "option": 59,
+    "qualifyingGroups": "BDFGHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BDFGHIJK": {
+    "option": 60,
+    "qualifyingGroups": "BDFGHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BDEHIJKL": {
+    "option": 61,
+    "qualifyingGroups": "BDEHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "I",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDEGIJKL": {
+    "option": 62,
+    "qualifyingGroups": "BDEGIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "I",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDEGHJKL": {
+    "option": 63,
+    "qualifyingGroups": "BDEGHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDEGHIKL": {
+    "option": 64,
+    "qualifyingGroups": "BDEGHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "I",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDEGHIJL": {
+    "option": 65,
+    "qualifyingGroups": "BDEGHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "G",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BDEGHIJK": {
+    "option": 66,
+    "qualifyingGroups": "BDEGHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "G",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BDEFIJKL": {
+    "option": 67,
+    "qualifyingGroups": "BDEFIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDEFHJKL": {
+    "option": 68,
+    "qualifyingGroups": "BDEFHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDEFHIKL": {
+    "option": 69,
+    "qualifyingGroups": "BDEFHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "I",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDEFHIJL": {
+    "option": 70,
+    "qualifyingGroups": "BDEFHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BDEFHIJK": {
+    "option": 71,
+    "qualifyingGroups": "BDEFHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BDEFGJKL": {
+    "option": 72,
+    "qualifyingGroups": "BDEFGJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDEFGIKL": {
+    "option": 73,
+    "qualifyingGroups": "BDEFGIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDEFGIJL": {
+    "option": 74,
+    "qualifyingGroups": "BDEFGIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BDEFGIJK": {
+    "option": 75,
+    "qualifyingGroups": "BDEFGIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BDEFGHKL": {
+    "option": 76,
+    "qualifyingGroups": "BDEFGHKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BDEFGHJL": {
+    "option": 77,
+    "qualifyingGroups": "BDEFGHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "BDEFGHJK": {
+    "option": 78,
+    "qualifyingGroups": "BDEFGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "BDEFGHIL": {
+    "option": 79,
+    "qualifyingGroups": "BDEFGHIL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BDEFGHIK": {
+    "option": 80,
+    "qualifyingGroups": "BDEFGHIK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BDEFGHIJ": {
+    "option": 81,
+    "qualifyingGroups": "BDEFGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "BCGHIJKL": {
+    "option": 82,
+    "qualifyingGroups": "BCGHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "I",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCFHIJKL": {
+    "option": 83,
+    "qualifyingGroups": "BCFHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCFGIJKL": {
+    "option": 84,
+    "qualifyingGroups": "BCFGIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCFGHJKL": {
+    "option": 85,
+    "qualifyingGroups": "BCFGHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCFGHIKL": {
+    "option": 86,
+    "qualifyingGroups": "BCFGHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCFGHIJL": {
+    "option": 87,
+    "qualifyingGroups": "BCFGHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCFGHIJK": {
+    "option": 88,
+    "qualifyingGroups": "BCFGHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCEHIJKL": {
+    "option": 89,
+    "qualifyingGroups": "BCEHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "I",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCEGIJKL": {
+    "option": 90,
+    "qualifyingGroups": "BCEGIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "I",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCEGHJKL": {
+    "option": 91,
+    "qualifyingGroups": "BCEGHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCEGHIKL": {
+    "option": 92,
+    "qualifyingGroups": "BCEGHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "I",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCEGHIJL": {
+    "option": 93,
+    "qualifyingGroups": "BCEGHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "G",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCEGHIJK": {
+    "option": 94,
+    "qualifyingGroups": "BCEGHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "G",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCEFIJKL": {
+    "option": 95,
+    "qualifyingGroups": "BCEFIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCEFHJKL": {
+    "option": 96,
+    "qualifyingGroups": "BCEFHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCEFHIKL": {
+    "option": 97,
+    "qualifyingGroups": "BCEFHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "I",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCEFHIJL": {
+    "option": 98,
+    "qualifyingGroups": "BCEFHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCEFHIJK": {
+    "option": 99,
+    "qualifyingGroups": "BCEFHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCEFGJKL": {
+    "option": 100,
+    "qualifyingGroups": "BCEFGJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCEFGIKL": {
+    "option": 101,
+    "qualifyingGroups": "BCEFGIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCEFGIJL": {
+    "option": 102,
+    "qualifyingGroups": "BCEFGIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCEFGIJK": {
+    "option": 103,
+    "qualifyingGroups": "BCEFGIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCEFGHKL": {
+    "option": 104,
+    "qualifyingGroups": "BCEFGHKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCEFGHJL": {
+    "option": 105,
+    "qualifyingGroups": "BCEFGHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "BCEFGHJK": {
+    "option": 106,
+    "qualifyingGroups": "BCEFGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "BCEFGHIL": {
+    "option": 107,
+    "qualifyingGroups": "BCEFGHIL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCEFGHIK": {
+    "option": 108,
+    "qualifyingGroups": "BCEFGHIK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCEFGHIJ": {
+    "option": 109,
+    "qualifyingGroups": "BCEFGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "BCDHIJKL": {
+    "option": 110,
+    "qualifyingGroups": "BCDHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "I",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDGIJKL": {
+    "option": 111,
+    "qualifyingGroups": "BCDGIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDGHJKL": {
+    "option": 112,
+    "qualifyingGroups": "BCDGHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDGHIKL": {
+    "option": 113,
+    "qualifyingGroups": "BCDGHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "I",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDGHIJL": {
+    "option": 114,
+    "qualifyingGroups": "BCDGHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCDGHIJK": {
+    "option": 115,
+    "qualifyingGroups": "BCDGHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCDFIJKL": {
+    "option": 116,
+    "qualifyingGroups": "BCDFIJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDFHJKL": {
+    "option": 117,
+    "qualifyingGroups": "BCDFHJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDFHIKL": {
+    "option": 118,
+    "qualifyingGroups": "BCDFHIKL",
+    "slots": {
+      "M79": "C",
+      "M85": "I",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDFHIJL": {
+    "option": 119,
+    "qualifyingGroups": "BCDFHIJL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCDFHIJK": {
+    "option": 120,
+    "qualifyingGroups": "BCDFHIJK",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCDFGJKL": {
+    "option": 121,
+    "qualifyingGroups": "BCDFGJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDFGIKL": {
+    "option": 122,
+    "qualifyingGroups": "BCDFGIKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDFGIJL": {
+    "option": 123,
+    "qualifyingGroups": "BCDFGIJL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCDFGIJK": {
+    "option": 124,
+    "qualifyingGroups": "BCDFGIJK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCDFGHKL": {
+    "option": 125,
+    "qualifyingGroups": "BCDFGHKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDFGHJL": {
+    "option": 126,
+    "qualifyingGroups": "BCDFGHJL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "J"
+    }
+  },
+  "BCDFGHJK": {
+    "option": 127,
+    "qualifyingGroups": "BCDFGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "D",
+      "M80": "K"
+    }
+  },
+  "BCDFGHIL": {
+    "option": 128,
+    "qualifyingGroups": "BCDFGHIL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCDFGHIK": {
+    "option": 129,
+    "qualifyingGroups": "BCDFGHIK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCDFGHIJ": {
+    "option": 130,
+    "qualifyingGroups": "BCDFGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "D",
+      "M80": "I"
+    }
+  },
+  "BCDEIJKL": {
+    "option": 131,
+    "qualifyingGroups": "BCDEIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "I",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDEHJKL": {
+    "option": 132,
+    "qualifyingGroups": "BCDEHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDEHIKL": {
+    "option": 133,
+    "qualifyingGroups": "BCDEHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "I",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDEHIJL": {
+    "option": 134,
+    "qualifyingGroups": "BCDEHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCDEHIJK": {
+    "option": 135,
+    "qualifyingGroups": "BCDEHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCDEGJKL": {
+    "option": 136,
+    "qualifyingGroups": "BCDEGJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDEGIKL": {
+    "option": 137,
+    "qualifyingGroups": "BCDEGIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "I",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDEGIJL": {
+    "option": 138,
+    "qualifyingGroups": "BCDEGIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCDEGIJK": {
+    "option": 139,
+    "qualifyingGroups": "BCDEGIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCDEGHKL": {
+    "option": 140,
+    "qualifyingGroups": "BCDEGHKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDEGHJL": {
+    "option": 141,
+    "qualifyingGroups": "BCDEGHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "D",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "BCDEGHJK": {
+    "option": 142,
+    "qualifyingGroups": "BCDEGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "D",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "BCDEGHIL": {
+    "option": 143,
+    "qualifyingGroups": "BCDEGHIL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCDEGHIK": {
+    "option": 144,
+    "qualifyingGroups": "BCDEGHIK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "H",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCDEGHIJ": {
+    "option": 145,
+    "qualifyingGroups": "BCDEGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "D",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "BCDEFJKL": {
+    "option": 146,
+    "qualifyingGroups": "BCDEFJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "E",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDEFIKL": {
+    "option": 147,
+    "qualifyingGroups": "BCDEFIKL",
+    "slots": {
+      "M79": "C",
+      "M85": "E",
+      "M81": "B",
+      "M74": "D",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDEFIJL": {
+    "option": 148,
+    "qualifyingGroups": "BCDEFIJL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "E",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCDEFIJK": {
+    "option": 149,
+    "qualifyingGroups": "BCDEFIJK",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "E",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCDEFHKL": {
+    "option": 150,
+    "qualifyingGroups": "BCDEFHKL",
+    "slots": {
+      "M79": "C",
+      "M85": "E",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDEFHJL": {
+    "option": 151,
+    "qualifyingGroups": "BCDEFHJL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "BCDEFHJK": {
+    "option": 152,
+    "qualifyingGroups": "BCDEFHJK",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "BCDEFHIL": {
+    "option": 153,
+    "qualifyingGroups": "BCDEFHIL",
+    "slots": {
+      "M79": "C",
+      "M85": "E",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCDEFHIK": {
+    "option": 154,
+    "qualifyingGroups": "BCDEFHIK",
+    "slots": {
+      "M79": "C",
+      "M85": "E",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCDEFHIJ": {
+    "option": 155,
+    "qualifyingGroups": "BCDEFHIJ",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "BCDEFGKL": {
+    "option": 156,
+    "qualifyingGroups": "BCDEFGKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "E",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "BCDEFGJL": {
+    "option": 157,
+    "qualifyingGroups": "BCDEFGJL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "BCDEFGJK": {
+    "option": 158,
+    "qualifyingGroups": "BCDEFGJK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "BCDEFGIL": {
+    "option": 159,
+    "qualifyingGroups": "BCDEFGIL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "E",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "BCDEFGIK": {
+    "option": 160,
+    "qualifyingGroups": "BCDEFGIK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "E",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "BCDEFGIJ": {
+    "option": 161,
+    "qualifyingGroups": "BCDEFGIJ",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "J",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "BCDEFGHL": {
+    "option": 162,
+    "qualifyingGroups": "BCDEFGHL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "BCDEFGHK": {
+    "option": 163,
+    "qualifyingGroups": "BCDEFGHK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "BCDEFGHJ": {
+    "option": 164,
+    "qualifyingGroups": "BCDEFGHJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "J",
+      "M77": "F",
+      "M87": "D",
+      "M80": "E"
+    }
+  },
+  "BCDEFGHI": {
+    "option": 165,
+    "qualifyingGroups": "BCDEFGHI",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "H",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "AFGHIJKL": {
+    "option": 166,
+    "qualifyingGroups": "AFGHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "I",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "AEGHIJKL": {
+    "option": 167,
+    "qualifyingGroups": "AEGHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "A",
+      "M82": "H",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "AEFHIJKL": {
+    "option": 168,
+    "qualifyingGroups": "AEFHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "F",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "AEFGIJKL": {
+    "option": 169,
+    "qualifyingGroups": "AEFGIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "AEFGHJKL": {
+    "option": 170,
+    "qualifyingGroups": "AEFGHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "F",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "AEFGHIKL": {
+    "option": 171,
+    "qualifyingGroups": "AEFGHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "I",
+      "M74": "F",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "AEFGHIJL": {
+    "option": 172,
+    "qualifyingGroups": "AEFGHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "F",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "AEFGHIJK": {
+    "option": 173,
+    "qualifyingGroups": "AEFGHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "F",
+      "M82": "A",
+      "M77": "H",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ADGHIJKL": {
+    "option": 174,
+    "qualifyingGroups": "ADGHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "I",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADFHIJKL": {
+    "option": 175,
+    "qualifyingGroups": "ADFHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "I",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADFGIJKL": {
+    "option": 176,
+    "qualifyingGroups": "ADFGIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADFGHJKL": {
+    "option": 177,
+    "qualifyingGroups": "ADFGHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADFGHIKL": {
+    "option": 178,
+    "qualifyingGroups": "ADFGHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "I",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADFGHIJL": {
+    "option": 179,
+    "qualifyingGroups": "ADFGHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ADFGHIJK": {
+    "option": 180,
+    "qualifyingGroups": "ADFGHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ADEHIJKL": {
+    "option": 181,
+    "qualifyingGroups": "ADEHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADEGIJKL": {
+    "option": 182,
+    "qualifyingGroups": "ADEGIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADEGHJKL": {
+    "option": 183,
+    "qualifyingGroups": "ADEGHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADEGHIKL": {
+    "option": 184,
+    "qualifyingGroups": "ADEGHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "I",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADEGHIJL": {
+    "option": 185,
+    "qualifyingGroups": "ADEGHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ADEGHIJK": {
+    "option": 186,
+    "qualifyingGroups": "ADEGHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ADEFIJKL": {
+    "option": 187,
+    "qualifyingGroups": "ADEFIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADEFHJKL": {
+    "option": 188,
+    "qualifyingGroups": "ADEFHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "E",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADEFHIKL": {
+    "option": 189,
+    "qualifyingGroups": "ADEFHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "I",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADEFHIJL": {
+    "option": 190,
+    "qualifyingGroups": "ADEFHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "E",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ADEFHIJK": {
+    "option": 191,
+    "qualifyingGroups": "ADEFHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "E",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ADEFGJKL": {
+    "option": 192,
+    "qualifyingGroups": "ADEFGJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADEFGIKL": {
+    "option": 193,
+    "qualifyingGroups": "ADEFGIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "I",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADEFGIJL": {
+    "option": 194,
+    "qualifyingGroups": "ADEFGIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ADEFGIJK": {
+    "option": 195,
+    "qualifyingGroups": "ADEFGIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ADEFGHKL": {
+    "option": 196,
+    "qualifyingGroups": "ADEFGHKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "E",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ADEFGHJL": {
+    "option": 197,
+    "qualifyingGroups": "ADEFGHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ADEFGHJK": {
+    "option": 198,
+    "qualifyingGroups": "ADEFGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ADEFGHIL": {
+    "option": 199,
+    "qualifyingGroups": "ADEFGHIL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "E",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ADEFGHIK": {
+    "option": 200,
+    "qualifyingGroups": "ADEFGHIK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "E",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ADEFGHIJ": {
+    "option": 201,
+    "qualifyingGroups": "ADEFGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ACGHIJKL": {
+    "option": 202,
+    "qualifyingGroups": "ACGHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACFHIJKL": {
+    "option": 203,
+    "qualifyingGroups": "ACFHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACFGIJKL": {
+    "option": 204,
+    "qualifyingGroups": "ACFGIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACFGHJKL": {
+    "option": 205,
+    "qualifyingGroups": "ACFGHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACFGHIKL": {
+    "option": 206,
+    "qualifyingGroups": "ACFGHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACFGHIJL": {
+    "option": 207,
+    "qualifyingGroups": "ACFGHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACFGHIJK": {
+    "option": 208,
+    "qualifyingGroups": "ACFGHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACEHIJKL": {
+    "option": 209,
+    "qualifyingGroups": "ACEHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACEGIJKL": {
+    "option": 210,
+    "qualifyingGroups": "ACEGIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACEGHJKL": {
+    "option": 211,
+    "qualifyingGroups": "ACEGHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACEGHIKL": {
+    "option": 212,
+    "qualifyingGroups": "ACEGHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACEGHIJL": {
+    "option": 213,
+    "qualifyingGroups": "ACEGHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACEGHIJK": {
+    "option": 214,
+    "qualifyingGroups": "ACEGHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACEFIJKL": {
+    "option": 215,
+    "qualifyingGroups": "ACEFIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACEFHJKL": {
+    "option": 216,
+    "qualifyingGroups": "ACEFHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACEFHIKL": {
+    "option": 217,
+    "qualifyingGroups": "ACEFHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACEFHIJL": {
+    "option": 218,
+    "qualifyingGroups": "ACEFHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACEFHIJK": {
+    "option": 219,
+    "qualifyingGroups": "ACEFHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACEFGJKL": {
+    "option": 220,
+    "qualifyingGroups": "ACEFGJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACEFGIKL": {
+    "option": 221,
+    "qualifyingGroups": "ACEFGIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACEFGIJL": {
+    "option": 222,
+    "qualifyingGroups": "ACEFGIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACEFGIJK": {
+    "option": 223,
+    "qualifyingGroups": "ACEFGIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACEFGHKL": {
+    "option": 224,
+    "qualifyingGroups": "ACEFGHKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACEFGHJL": {
+    "option": 225,
+    "qualifyingGroups": "ACEFGHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ACEFGHJK": {
+    "option": 226,
+    "qualifyingGroups": "ACEFGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ACEFGHIL": {
+    "option": 227,
+    "qualifyingGroups": "ACEFGHIL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACEFGHIK": {
+    "option": 228,
+    "qualifyingGroups": "ACEFGHIK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACEFGHIJ": {
+    "option": 229,
+    "qualifyingGroups": "ACEFGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ACDHIJKL": {
+    "option": 230,
+    "qualifyingGroups": "ACDHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDGIJKL": {
+    "option": 231,
+    "qualifyingGroups": "ACDGIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDGHJKL": {
+    "option": 232,
+    "qualifyingGroups": "ACDGHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDGHIKL": {
+    "option": 233,
+    "qualifyingGroups": "ACDGHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDGHIJL": {
+    "option": 234,
+    "qualifyingGroups": "ACDGHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACDGHIJK": {
+    "option": 235,
+    "qualifyingGroups": "ACDGHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACDFIJKL": {
+    "option": 236,
+    "qualifyingGroups": "ACDFIJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "I",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDFHJKL": {
+    "option": 237,
+    "qualifyingGroups": "ACDFHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "F",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDFHIKL": {
+    "option": 238,
+    "qualifyingGroups": "ACDFHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "F",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDFHIJL": {
+    "option": 239,
+    "qualifyingGroups": "ACDFHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "F",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACDFHIJK": {
+    "option": 240,
+    "qualifyingGroups": "ACDFHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "F",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACDFGJKL": {
+    "option": 241,
+    "qualifyingGroups": "ACDFGJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDFGIKL": {
+    "option": 242,
+    "qualifyingGroups": "ACDFGIKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "I",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDFGIJL": {
+    "option": 243,
+    "qualifyingGroups": "ACDFGIJL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACDFGIJK": {
+    "option": 244,
+    "qualifyingGroups": "ACDFGIJK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACDFGHKL": {
+    "option": 245,
+    "qualifyingGroups": "ACDFGHKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "F",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDFGHJL": {
+    "option": 246,
+    "qualifyingGroups": "ACDFGHJL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "H"
+    }
+  },
+  "ACDFGHJK": {
+    "option": 247,
+    "qualifyingGroups": "ACDFGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "K"
+    }
+  },
+  "ACDFGHIL": {
+    "option": 248,
+    "qualifyingGroups": "ACDFGHIL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "F",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACDFGHIK": {
+    "option": 249,
+    "qualifyingGroups": "ACDFGHIK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "F",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACDFGHIJ": {
+    "option": 250,
+    "qualifyingGroups": "ACDFGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "I"
+    }
+  },
+  "ACDEIJKL": {
+    "option": 251,
+    "qualifyingGroups": "ACDEIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDEHJKL": {
+    "option": 252,
+    "qualifyingGroups": "ACDEHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDEHIKL": {
+    "option": 253,
+    "qualifyingGroups": "ACDEHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDEHIJL": {
+    "option": 254,
+    "qualifyingGroups": "ACDEHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACDEHIJK": {
+    "option": 255,
+    "qualifyingGroups": "ACDEHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACDEGJKL": {
+    "option": 256,
+    "qualifyingGroups": "ACDEGJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDEGIKL": {
+    "option": 257,
+    "qualifyingGroups": "ACDEGIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "I",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDEGIJL": {
+    "option": 258,
+    "qualifyingGroups": "ACDEGIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACDEGIJK": {
+    "option": 259,
+    "qualifyingGroups": "ACDEGIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACDEGHKL": {
+    "option": 260,
+    "qualifyingGroups": "ACDEGHKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDEGHJL": {
+    "option": 261,
+    "qualifyingGroups": "ACDEGHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ACDEGHJK": {
+    "option": 262,
+    "qualifyingGroups": "ACDEGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ACDEGHIL": {
+    "option": 263,
+    "qualifyingGroups": "ACDEGHIL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACDEGHIK": {
+    "option": 264,
+    "qualifyingGroups": "ACDEGHIK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACDEGHIJ": {
+    "option": 265,
+    "qualifyingGroups": "ACDEGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ACDEFJKL": {
+    "option": 266,
+    "qualifyingGroups": "ACDEFJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "E",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDEFIKL": {
+    "option": 267,
+    "qualifyingGroups": "ACDEFIKL",
+    "slots": {
+      "M79": "C",
+      "M85": "E",
+      "M81": "I",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDEFIJL": {
+    "option": 268,
+    "qualifyingGroups": "ACDEFIJL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "E",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACDEFIJK": {
+    "option": 269,
+    "qualifyingGroups": "ACDEFIJK",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "E",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACDEFHKL": {
+    "option": 270,
+    "qualifyingGroups": "ACDEFHKL",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "F",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDEFHJL": {
+    "option": 271,
+    "qualifyingGroups": "ACDEFHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "F",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ACDEFHJK": {
+    "option": 272,
+    "qualifyingGroups": "ACDEFHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "K"
+    }
+  },
+  "ACDEFHIL": {
+    "option": 273,
+    "qualifyingGroups": "ACDEFHIL",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "F",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACDEFHIK": {
+    "option": 274,
+    "qualifyingGroups": "ACDEFHIK",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "F",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACDEFHIJ": {
+    "option": 275,
+    "qualifyingGroups": "ACDEFHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "I"
+    }
+  },
+  "ACDEFGKL": {
+    "option": 276,
+    "qualifyingGroups": "ACDEFGKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "E",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ACDEFGJL": {
+    "option": 277,
+    "qualifyingGroups": "ACDEFGJL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ACDEFGJK": {
+    "option": 278,
+    "qualifyingGroups": "ACDEFGJK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ACDEFGIL": {
+    "option": 279,
+    "qualifyingGroups": "ACDEFGIL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "E",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ACDEFGIK": {
+    "option": 280,
+    "qualifyingGroups": "ACDEFGIK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "E",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ACDEFGIJ": {
+    "option": 281,
+    "qualifyingGroups": "ACDEFGIJ",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "J",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ACDEFGHL": {
+    "option": 282,
+    "qualifyingGroups": "ACDEFGHL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "F",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ACDEFGHK": {
+    "option": 283,
+    "qualifyingGroups": "ACDEFGHK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "K"
+    }
+  },
+  "ACDEFGHJ": {
+    "option": 284,
+    "qualifyingGroups": "ACDEFGHJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "J",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "E"
+    }
+  },
+  "ACDEFGHI": {
+    "option": 285,
+    "qualifyingGroups": "ACDEFGHI",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "E",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "I"
+    }
+  },
+  "ABGHIJKL": {
+    "option": 286,
+    "qualifyingGroups": "ABGHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "A",
+      "M82": "I",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABFHIJKL": {
+    "option": 287,
+    "qualifyingGroups": "ABFHIJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "A",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABFGIJKL": {
+    "option": 288,
+    "qualifyingGroups": "ABFGIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABFGHJKL": {
+    "option": 289,
+    "qualifyingGroups": "ABFGHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABFGHIKL": {
+    "option": 290,
+    "qualifyingGroups": "ABFGHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "A",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABFGHIJL": {
+    "option": 291,
+    "qualifyingGroups": "ABFGHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABFGHIJK": {
+    "option": 292,
+    "qualifyingGroups": "ABFGHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABEHIJKL": {
+    "option": 293,
+    "qualifyingGroups": "ABEHIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "A",
+      "M82": "I",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABEGIJKL": {
+    "option": 294,
+    "qualifyingGroups": "ABEGIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "A",
+      "M82": "I",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABEGHJKL": {
+    "option": 295,
+    "qualifyingGroups": "ABEGHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "A",
+      "M82": "H",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABEGHIKL": {
+    "option": 296,
+    "qualifyingGroups": "ABEGHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "A",
+      "M82": "I",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABEGHIJL": {
+    "option": 297,
+    "qualifyingGroups": "ABEGHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "A",
+      "M82": "H",
+      "M77": "G",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABEGHIJK": {
+    "option": 298,
+    "qualifyingGroups": "ABEGHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "A",
+      "M82": "H",
+      "M77": "G",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABEFIJKL": {
+    "option": 299,
+    "qualifyingGroups": "ABEFIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "A",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABEFHJKL": {
+    "option": 300,
+    "qualifyingGroups": "ABEFHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABEFHIKL": {
+    "option": 301,
+    "qualifyingGroups": "ABEFHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "I",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABEFHIJL": {
+    "option": 302,
+    "qualifyingGroups": "ABEFHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABEFHIJK": {
+    "option": 303,
+    "qualifyingGroups": "ABEFHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "H",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABEFGJKL": {
+    "option": 304,
+    "qualifyingGroups": "ABEFGJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABEFGIKL": {
+    "option": 305,
+    "qualifyingGroups": "ABEFGIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "A",
+      "M82": "I",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABEFGIJL": {
+    "option": 306,
+    "qualifyingGroups": "ABEFGIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABEFGIJK": {
+    "option": 307,
+    "qualifyingGroups": "ABEFGIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABEFGHKL": {
+    "option": 308,
+    "qualifyingGroups": "ABEFGHKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABEFGHJL": {
+    "option": 309,
+    "qualifyingGroups": "ABEFGHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ABEFGHJK": {
+    "option": 310,
+    "qualifyingGroups": "ABEFGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ABEFGHIL": {
+    "option": 311,
+    "qualifyingGroups": "ABEFGHIL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABEFGHIK": {
+    "option": 312,
+    "qualifyingGroups": "ABEFGHIK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "H",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABEFGHIJ": {
+    "option": 313,
+    "qualifyingGroups": "ABEFGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ABDHIJKL": {
+    "option": 314,
+    "qualifyingGroups": "ABDHIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDGIJKL": {
+    "option": 315,
+    "qualifyingGroups": "ABDGIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDGHJKL": {
+    "option": 316,
+    "qualifyingGroups": "ABDGHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDGHIKL": {
+    "option": 317,
+    "qualifyingGroups": "ABDGHIKL",
+    "slots": {
+      "M79": "I",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDGHIJL": {
+    "option": 318,
+    "qualifyingGroups": "ABDGHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABDGHIJK": {
+    "option": 319,
+    "qualifyingGroups": "ABDGHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABDFIJKL": {
+    "option": 320,
+    "qualifyingGroups": "ABDFIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDFHJKL": {
+    "option": 321,
+    "qualifyingGroups": "ABDFHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDFHIKL": {
+    "option": 322,
+    "qualifyingGroups": "ABDFHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "I",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDFHIJL": {
+    "option": 323,
+    "qualifyingGroups": "ABDFHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABDFHIJK": {
+    "option": 324,
+    "qualifyingGroups": "ABDFHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABDFGJKL": {
+    "option": 325,
+    "qualifyingGroups": "ABDFGJKL",
+    "slots": {
+      "M79": "F",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDFGIKL": {
+    "option": 326,
+    "qualifyingGroups": "ABDFGIKL",
+    "slots": {
+      "M79": "I",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDFGIJL": {
+    "option": 327,
+    "qualifyingGroups": "ABDFGIJL",
+    "slots": {
+      "M79": "F",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABDFGIJK": {
+    "option": 328,
+    "qualifyingGroups": "ABDFGIJK",
+    "slots": {
+      "M79": "F",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABDFGHKL": {
+    "option": 329,
+    "qualifyingGroups": "ABDFGHKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDFGHJL": {
+    "option": 330,
+    "qualifyingGroups": "ABDFGHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "J"
+    }
+  },
+  "ABDFGHJK": {
+    "option": 331,
+    "qualifyingGroups": "ABDFGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "J",
+      "M80": "K"
+    }
+  },
+  "ABDFGHIL": {
+    "option": 332,
+    "qualifyingGroups": "ABDFGHIL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABDFGHIK": {
+    "option": 333,
+    "qualifyingGroups": "ABDFGHIK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABDFGHIJ": {
+    "option": 334,
+    "qualifyingGroups": "ABDFGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "J"
+    }
+  },
+  "ABDEIJKL": {
+    "option": 335,
+    "qualifyingGroups": "ABDEIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "A",
+      "M82": "I",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDEHJKL": {
+    "option": 336,
+    "qualifyingGroups": "ABDEHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDEHIKL": {
+    "option": 337,
+    "qualifyingGroups": "ABDEHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "I",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDEHIJL": {
+    "option": 338,
+    "qualifyingGroups": "ABDEHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABDEHIJK": {
+    "option": 339,
+    "qualifyingGroups": "ABDEHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABDEGJKL": {
+    "option": 340,
+    "qualifyingGroups": "ABDEGJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDEGIKL": {
+    "option": 341,
+    "qualifyingGroups": "ABDEGIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "A",
+      "M82": "I",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDEGIJL": {
+    "option": 342,
+    "qualifyingGroups": "ABDEGIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABDEGIJK": {
+    "option": 343,
+    "qualifyingGroups": "ABDEGIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABDEGHKL": {
+    "option": 344,
+    "qualifyingGroups": "ABDEGHKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDEGHJL": {
+    "option": 345,
+    "qualifyingGroups": "ABDEGHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ABDEGHJK": {
+    "option": 346,
+    "qualifyingGroups": "ABDEGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ABDEGHIL": {
+    "option": 347,
+    "qualifyingGroups": "ABDEGHIL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABDEGHIK": {
+    "option": 348,
+    "qualifyingGroups": "ABDEGHIK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "H",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABDEGHIJ": {
+    "option": 349,
+    "qualifyingGroups": "ABDEGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ABDEFJKL": {
+    "option": 350,
+    "qualifyingGroups": "ABDEFJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDEFIKL": {
+    "option": 351,
+    "qualifyingGroups": "ABDEFIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "I",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDEFIJL": {
+    "option": 352,
+    "qualifyingGroups": "ABDEFIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABDEFIJK": {
+    "option": 353,
+    "qualifyingGroups": "ABDEFIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABDEFHKL": {
+    "option": 354,
+    "qualifyingGroups": "ABDEFHKL",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDEFHJL": {
+    "option": 355,
+    "qualifyingGroups": "ABDEFHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ABDEFHJK": {
+    "option": 356,
+    "qualifyingGroups": "ABDEFHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ABDEFHIL": {
+    "option": 357,
+    "qualifyingGroups": "ABDEFHIL",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABDEFHIK": {
+    "option": 358,
+    "qualifyingGroups": "ABDEFHIK",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABDEFHIJ": {
+    "option": 359,
+    "qualifyingGroups": "ABDEFHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ABDEFGKL": {
+    "option": 360,
+    "qualifyingGroups": "ABDEFGKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABDEFGJL": {
+    "option": 361,
+    "qualifyingGroups": "ABDEFGJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "J"
+    }
+  },
+  "ABDEFGJK": {
+    "option": 362,
+    "qualifyingGroups": "ABDEFGJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "J",
+      "M80": "K"
+    }
+  },
+  "ABDEFGIL": {
+    "option": 363,
+    "qualifyingGroups": "ABDEFGIL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABDEFGIK": {
+    "option": 364,
+    "qualifyingGroups": "ABDEFGIK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABDEFGIJ": {
+    "option": 365,
+    "qualifyingGroups": "ABDEFGIJ",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "J"
+    }
+  },
+  "ABDEFGHL": {
+    "option": 366,
+    "qualifyingGroups": "ABDEFGHL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ABDEFGHK": {
+    "option": 367,
+    "qualifyingGroups": "ABDEFGHK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ABDEFGHJ": {
+    "option": 368,
+    "qualifyingGroups": "ABDEFGHJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "J"
+    }
+  },
+  "ABDEFGHI": {
+    "option": 369,
+    "qualifyingGroups": "ABDEFGHI",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ABCHIJKL": {
+    "option": 370,
+    "qualifyingGroups": "ABCHIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCGIJKL": {
+    "option": 371,
+    "qualifyingGroups": "ABCGIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCGHJKL": {
+    "option": 372,
+    "qualifyingGroups": "ABCGHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCGHIKL": {
+    "option": 373,
+    "qualifyingGroups": "ABCGHIKL",
+    "slots": {
+      "M79": "I",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCGHIJL": {
+    "option": 374,
+    "qualifyingGroups": "ABCGHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCGHIJK": {
+    "option": 375,
+    "qualifyingGroups": "ABCGHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "G",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCFIJKL": {
+    "option": 376,
+    "qualifyingGroups": "ABCFIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCFHJKL": {
+    "option": 377,
+    "qualifyingGroups": "ABCFHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCFHIKL": {
+    "option": 378,
+    "qualifyingGroups": "ABCFHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "I",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCFHIJL": {
+    "option": 379,
+    "qualifyingGroups": "ABCFHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCFHIJK": {
+    "option": 380,
+    "qualifyingGroups": "ABCFHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCFGJKL": {
+    "option": 381,
+    "qualifyingGroups": "ABCFGJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCFGIKL": {
+    "option": 382,
+    "qualifyingGroups": "ABCFGIKL",
+    "slots": {
+      "M79": "I",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCFGIJL": {
+    "option": 383,
+    "qualifyingGroups": "ABCFGIJL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCFGIJK": {
+    "option": 384,
+    "qualifyingGroups": "ABCFGIJK",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "F",
+      "M82": "A",
+      "M77": "G",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCFGHKL": {
+    "option": 385,
+    "qualifyingGroups": "ABCFGHKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCFGHJL": {
+    "option": 386,
+    "qualifyingGroups": "ABCFGHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "J"
+    }
+  },
+  "ABCFGHJK": {
+    "option": 387,
+    "qualifyingGroups": "ABCFGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "J",
+      "M80": "K"
+    }
+  },
+  "ABCFGHIL": {
+    "option": 388,
+    "qualifyingGroups": "ABCFGHIL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCFGHIK": {
+    "option": 389,
+    "qualifyingGroups": "ABCFGHIK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCFGHIJ": {
+    "option": 390,
+    "qualifyingGroups": "ABCFGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "J"
+    }
+  },
+  "ABCEIJKL": {
+    "option": 391,
+    "qualifyingGroups": "ABCEIJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "A",
+      "M82": "I",
+      "M77": "C",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCEHJKL": {
+    "option": 392,
+    "qualifyingGroups": "ABCEHJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCEHIKL": {
+    "option": 393,
+    "qualifyingGroups": "ABCEHIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "I",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCEHIJL": {
+    "option": 394,
+    "qualifyingGroups": "ABCEHIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCEHIJK": {
+    "option": 395,
+    "qualifyingGroups": "ABCEHIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCEGJKL": {
+    "option": 396,
+    "qualifyingGroups": "ABCEGJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCEGIKL": {
+    "option": 397,
+    "qualifyingGroups": "ABCEGIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "A",
+      "M82": "I",
+      "M77": "C",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCEGIJL": {
+    "option": 398,
+    "qualifyingGroups": "ABCEGIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCEGIJK": {
+    "option": 399,
+    "qualifyingGroups": "ABCEGIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "G",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCEGHKL": {
+    "option": 400,
+    "qualifyingGroups": "ABCEGHKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCEGHJL": {
+    "option": 401,
+    "qualifyingGroups": "ABCEGHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ABCEGHJK": {
+    "option": 402,
+    "qualifyingGroups": "ABCEGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "G",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ABCEGHIL": {
+    "option": 403,
+    "qualifyingGroups": "ABCEGHIL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCEGHIK": {
+    "option": 404,
+    "qualifyingGroups": "ABCEGHIK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "H",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCEGHIJ": {
+    "option": 405,
+    "qualifyingGroups": "ABCEGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "G",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ABCEFJKL": {
+    "option": 406,
+    "qualifyingGroups": "ABCEFJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCEFIKL": {
+    "option": 407,
+    "qualifyingGroups": "ABCEFIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "I",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCEFIJL": {
+    "option": 408,
+    "qualifyingGroups": "ABCEFIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCEFIJK": {
+    "option": 409,
+    "qualifyingGroups": "ABCEFIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCEFHKL": {
+    "option": 410,
+    "qualifyingGroups": "ABCEFHKL",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCEFHJL": {
+    "option": 411,
+    "qualifyingGroups": "ABCEFHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ABCEFHJK": {
+    "option": 412,
+    "qualifyingGroups": "ABCEFHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ABCEFHIL": {
+    "option": 413,
+    "qualifyingGroups": "ABCEFHIL",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCEFHIK": {
+    "option": 414,
+    "qualifyingGroups": "ABCEFHIK",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCEFHIJ": {
+    "option": 415,
+    "qualifyingGroups": "ABCEFHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ABCEFGKL": {
+    "option": 416,
+    "qualifyingGroups": "ABCEFGKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCEFGJL": {
+    "option": 417,
+    "qualifyingGroups": "ABCEFGJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "J"
+    }
+  },
+  "ABCEFGJK": {
+    "option": 418,
+    "qualifyingGroups": "ABCEFGJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "J",
+      "M80": "K"
+    }
+  },
+  "ABCEFGIL": {
+    "option": 419,
+    "qualifyingGroups": "ABCEFGIL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCEFGIK": {
+    "option": 420,
+    "qualifyingGroups": "ABCEFGIK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCEFGIJ": {
+    "option": 421,
+    "qualifyingGroups": "ABCEFGIJ",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "J"
+    }
+  },
+  "ABCEFGHL": {
+    "option": 422,
+    "qualifyingGroups": "ABCEFGHL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ABCEFGHK": {
+    "option": 423,
+    "qualifyingGroups": "ABCEFGHK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ABCEFGHJ": {
+    "option": 424,
+    "qualifyingGroups": "ABCEFGHJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "J"
+    }
+  },
+  "ABCEFGHI": {
+    "option": 425,
+    "qualifyingGroups": "ABCEFGHI",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ABCDIJKL": {
+    "option": 426,
+    "qualifyingGroups": "ABCDIJKL",
+    "slots": {
+      "M79": "I",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDHJKL": {
+    "option": 427,
+    "qualifyingGroups": "ABCDHJKL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDHIKL": {
+    "option": 428,
+    "qualifyingGroups": "ABCDHIKL",
+    "slots": {
+      "M79": "H",
+      "M85": "I",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDHIJL": {
+    "option": 429,
+    "qualifyingGroups": "ABCDHIJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCDHIJK": {
+    "option": 430,
+    "qualifyingGroups": "ABCDHIJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCDGJKL": {
+    "option": 431,
+    "qualifyingGroups": "ABCDGJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDGIKL": {
+    "option": 432,
+    "qualifyingGroups": "ABCDGIKL",
+    "slots": {
+      "M79": "I",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDGIJL": {
+    "option": 433,
+    "qualifyingGroups": "ABCDGIJL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCDGIJK": {
+    "option": 434,
+    "qualifyingGroups": "ABCDGIJK",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "G",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCDGHKL": {
+    "option": 435,
+    "qualifyingGroups": "ABCDGHKL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDGHJL": {
+    "option": 436,
+    "qualifyingGroups": "ABCDGHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "J"
+    }
+  },
+  "ABCDGHJK": {
+    "option": 437,
+    "qualifyingGroups": "ABCDGHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "J",
+      "M80": "K"
+    }
+  },
+  "ABCDGHIL": {
+    "option": 438,
+    "qualifyingGroups": "ABCDGHIL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCDGHIK": {
+    "option": 439,
+    "qualifyingGroups": "ABCDGHIK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCDGHIJ": {
+    "option": 440,
+    "qualifyingGroups": "ABCDGHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "J"
+    }
+  },
+  "ABCDFJKL": {
+    "option": 441,
+    "qualifyingGroups": "ABCDFJKL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDFIKL": {
+    "option": 442,
+    "qualifyingGroups": "ABCDFIKL",
+    "slots": {
+      "M79": "C",
+      "M85": "I",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDFIJL": {
+    "option": 443,
+    "qualifyingGroups": "ABCDFIJL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCDFIJK": {
+    "option": 444,
+    "qualifyingGroups": "ABCDFIJK",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCDFHKL": {
+    "option": 445,
+    "qualifyingGroups": "ABCDFHKL",
+    "slots": {
+      "M79": "H",
+      "M85": "F",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDFHJL": {
+    "option": 446,
+    "qualifyingGroups": "ABCDFHJL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "H"
+    }
+  },
+  "ABCDFHJK": {
+    "option": 447,
+    "qualifyingGroups": "ABCDFHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "K"
+    }
+  },
+  "ABCDFHIL": {
+    "option": 448,
+    "qualifyingGroups": "ABCDFHIL",
+    "slots": {
+      "M79": "H",
+      "M85": "F",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCDFHIK": {
+    "option": 449,
+    "qualifyingGroups": "ABCDFHIK",
+    "slots": {
+      "M79": "H",
+      "M85": "F",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCDFHIJ": {
+    "option": 450,
+    "qualifyingGroups": "ABCDFHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "I"
+    }
+  },
+  "ABCDFGKL": {
+    "option": 451,
+    "qualifyingGroups": "ABCDFGKL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDFGJL": {
+    "option": 452,
+    "qualifyingGroups": "ABCDFGJL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "J"
+    }
+  },
+  "ABCDFGJK": {
+    "option": 453,
+    "qualifyingGroups": "ABCDFGJK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "J",
+      "M80": "K"
+    }
+  },
+  "ABCDFGIL": {
+    "option": 454,
+    "qualifyingGroups": "ABCDFGIL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCDFGIK": {
+    "option": 455,
+    "qualifyingGroups": "ABCDFGIK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCDFGIJ": {
+    "option": 456,
+    "qualifyingGroups": "ABCDFGIJ",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "J"
+    }
+  },
+  "ABCDFGHL": {
+    "option": 457,
+    "qualifyingGroups": "ABCDFGHL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "H"
+    }
+  },
+  "ABCDFGHK": {
+    "option": 458,
+    "qualifyingGroups": "ABCDFGHK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "K"
+    }
+  },
+  "ABCDFGHJ": {
+    "option": 459,
+    "qualifyingGroups": "ABCDFGHJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "J"
+    }
+  },
+  "ABCDFGHI": {
+    "option": 460,
+    "qualifyingGroups": "ABCDFGHI",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "I"
+    }
+  },
+  "ABCDEJKL": {
+    "option": 461,
+    "qualifyingGroups": "ABCDEJKL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDEIKL": {
+    "option": 462,
+    "qualifyingGroups": "ABCDEIKL",
+    "slots": {
+      "M79": "E",
+      "M85": "I",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDEIJL": {
+    "option": 463,
+    "qualifyingGroups": "ABCDEIJL",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCDEIJK": {
+    "option": 464,
+    "qualifyingGroups": "ABCDEIJK",
+    "slots": {
+      "M79": "E",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCDEHKL": {
+    "option": 465,
+    "qualifyingGroups": "ABCDEHKL",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDEHJL": {
+    "option": 466,
+    "qualifyingGroups": "ABCDEHJL",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ABCDEHJK": {
+    "option": 467,
+    "qualifyingGroups": "ABCDEHJK",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ABCDEHIL": {
+    "option": 468,
+    "qualifyingGroups": "ABCDEHIL",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCDEHIK": {
+    "option": 469,
+    "qualifyingGroups": "ABCDEHIK",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCDEHIJ": {
+    "option": 470,
+    "qualifyingGroups": "ABCDEHIJ",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ABCDEGKL": {
+    "option": 471,
+    "qualifyingGroups": "ABCDEGKL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDEGJL": {
+    "option": 472,
+    "qualifyingGroups": "ABCDEGJL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "J"
+    }
+  },
+  "ABCDEGJK": {
+    "option": 473,
+    "qualifyingGroups": "ABCDEGJK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "J",
+      "M80": "K"
+    }
+  },
+  "ABCDEGIL": {
+    "option": 474,
+    "qualifyingGroups": "ABCDEGIL",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCDEGIK": {
+    "option": 475,
+    "qualifyingGroups": "ABCDEGIK",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCDEGIJ": {
+    "option": 476,
+    "qualifyingGroups": "ABCDEGIJ",
+    "slots": {
+      "M79": "E",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "I",
+      "M80": "J"
+    }
+  },
+  "ABCDEGHL": {
+    "option": 477,
+    "qualifyingGroups": "ABCDEGHL",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ABCDEGHK": {
+    "option": 478,
+    "qualifyingGroups": "ABCDEGHK",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ABCDEGHJ": {
+    "option": 479,
+    "qualifyingGroups": "ABCDEGHJ",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "E",
+      "M80": "J"
+    }
+  },
+  "ABCDEGHI": {
+    "option": 480,
+    "qualifyingGroups": "ABCDEGHI",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ABCDEFKL": {
+    "option": 481,
+    "qualifyingGroups": "ABCDEFKL",
+    "slots": {
+      "M79": "C",
+      "M85": "E",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "K"
+    }
+  },
+  "ABCDEFJL": {
+    "option": 482,
+    "qualifyingGroups": "ABCDEFJL",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ABCDEFJK": {
+    "option": 483,
+    "qualifyingGroups": "ABCDEFJK",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ABCDEFIL": {
+    "option": 484,
+    "qualifyingGroups": "ABCDEFIL",
+    "slots": {
+      "M79": "C",
+      "M85": "E",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "I"
+    }
+  },
+  "ABCDEFIK": {
+    "option": 485,
+    "qualifyingGroups": "ABCDEFIK",
+    "slots": {
+      "M79": "C",
+      "M85": "E",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "I",
+      "M80": "K"
+    }
+  },
+  "ABCDEFIJ": {
+    "option": 486,
+    "qualifyingGroups": "ABCDEFIJ",
+    "slots": {
+      "M79": "C",
+      "M85": "J",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ABCDEFHL": {
+    "option": 487,
+    "qualifyingGroups": "ABCDEFHL",
+    "slots": {
+      "M79": "H",
+      "M85": "F",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "D",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ABCDEFHK": {
+    "option": 488,
+    "qualifyingGroups": "ABCDEFHK",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "K"
+    }
+  },
+  "ABCDEFHJ": {
+    "option": 489,
+    "qualifyingGroups": "ABCDEFHJ",
+    "slots": {
+      "M79": "H",
+      "M85": "J",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "E"
+    }
+  },
+  "ABCDEFHI": {
+    "option": 490,
+    "qualifyingGroups": "ABCDEFHI",
+    "slots": {
+      "M79": "H",
+      "M85": "E",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "I"
+    }
+  },
+  "ABCDEFGL": {
+    "option": 491,
+    "qualifyingGroups": "ABCDEFGL",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "L",
+      "M80": "E"
+    }
+  },
+  "ABCDEFGK": {
+    "option": 492,
+    "qualifyingGroups": "ABCDEFGK",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "K"
+    }
+  },
+  "ABCDEFGJ": {
+    "option": 493,
+    "qualifyingGroups": "ABCDEFGJ",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "J"
+    }
+  },
+  "ABCDEFGI": {
+    "option": 494,
+    "qualifyingGroups": "ABCDEFGI",
+    "slots": {
+      "M79": "C",
+      "M85": "G",
+      "M81": "B",
+      "M74": "D",
+      "M82": "A",
+      "M77": "F",
+      "M87": "E",
+      "M80": "I"
+    }
+  },
+  "ABCDEFGH": {
+    "option": 495,
+    "qualifyingGroups": "ABCDEFGH",
+    "slots": {
+      "M79": "H",
+      "M85": "G",
+      "M81": "B",
+      "M74": "C",
+      "M82": "A",
+      "M77": "F",
+      "M87": "D",
+      "M80": "E"
+    }
+  }
+}

@@ -81,6 +81,20 @@ npm run magic-link -- your@email.cz
 
 Prints a local URL — paste it into your browser to sign in. Requires `SUPABASE_SERVICE_ROLE_KEY` in `.env.local`.
 
+## Regenerating Annex C (only if FIFA amends regs)
+
+`data/annex-c.json` is committed and is the runtime source. Regenerate from the FIFA regulations PDF only if the rules change:
+
+```sh
+mkdir -p tmp
+curl -sL -o tmp/fwc2026_regs.pdf \
+  "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf"
+pdftotext -layout tmp/fwc2026_regs.pdf tmp/fwc2026_regs.txt
+npm run extract-annex-c
+```
+
+The script asserts 495 distinct entries, set-equality between key and slot groups, and that no R32 pairing puts two teams from the same group together. Fails loud on any miss.
+
 ## Seeding data
 
 Once Supabase is set up and the migration is applied, populate teams and matches from football-data.org:
