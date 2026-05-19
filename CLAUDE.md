@@ -6,11 +6,10 @@ A web app where a closed group of friends each fill out the complete tournament 
 ## Deadline
 FIFA World Cup 2026 starts **June 11, 2026**. MVP must be live before then.
 
-## Git / SSH Setup
+## Git
 - GitHub repo: `https://github.com/stevejobs-420/VFT`
 - GitHub account: `stevejobs-420`, email `vojtech.sykora7@gmail.com`
-- SSH key: `~/.ssh/id_github_personal` with host alias `github-personal`
-- Remote: `git@github-personal:stevejobs-420/VFT.git`
+- Remote: `git@github-personal:stevejobs-420/VFT.git` (uses `github-personal` SSH alias)
 - Branch: `master`
 - Note: global git config is a separate GitLab account — GitHub identity is set locally in this repo only
 
