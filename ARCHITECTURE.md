@@ -27,6 +27,7 @@ A closed web app for a group of friends to predict exact scores for every match 
 - Sessions managed entirely by Supabase, stored in browser
 - Public signups disabled — users are manually added or invited by admin (exact admin flow TBD — likely via Supabase dashboard for MVP)
 - No passwords anywhere
+- **SMTP provider:** Resend (free tier, 100/day · 3000/month). Sender domain verified — emails come from `info@vft.vojtechsykora.cz`. Supabase's built-in SMTP is unreliable for Czech inboxes; Resend with proper SPF/DKIM solves seznam.cz / gmail filtering. See README "SMTP — Resend" for setup steps.
 
 ---
 

@@ -1,4 +1,7 @@
-export default function PredictPage() {
+import { requireUser } from "@/lib/auth";
+
+export default async function PredictPage() {
+  await requireUser();
   return (
     <section>
       <h1>Tvoje tipy</h1>

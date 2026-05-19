@@ -1,13 +1,20 @@
-export default function Home() {
-  return (
-    <section>
-      <h1>Vítej v tipovačce na MS 2026</h1>
-      <p style={{ marginTop: "0.75rem" }}>
-        Tipuj výsledky všech zápasů, sbírej body a poraz svoje kámoše.
-      </p>
-      <p style={{ marginTop: "1rem", color: "var(--muted)" }}>
-        Přihlašování přijde za chvíli.
-      </p>
-    </section>
-  );
+import { redirect } from "next/navigation";
+import { createClient } from "@/lib/supabase/server";
+import { LoginForm } from "./(auth)/login-form";
+
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: Promise<{ error?: string }>;
+}) {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (user) redirect("/predict");
+
+  const { error } = await searchParams;
+
+  return <LoginForm initialError={error} />;
 }

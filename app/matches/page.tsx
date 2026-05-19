@@ -1,4 +1,7 @@
-export default function MatchesPage() {
+import { requireUser } from "@/lib/auth";
+
+export default async function MatchesPage() {
+  await requireUser();
   return (
     <section>
       <h1>Zápasy</h1>

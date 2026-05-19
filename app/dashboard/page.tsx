@@ -1,4 +1,7 @@
-export default function DashboardPage() {
+import { requireUser } from "@/lib/auth";
+
+export default async function DashboardPage() {
+  await requireUser();
   return (
     <section>
       <h1>Žebříček</h1>
