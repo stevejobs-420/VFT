@@ -1,5 +1,7 @@
 # VFT — World Cup 2026 Prediction Game
 
+@AGENTS.md
+
 ## What it is
 A closed web app where a group of friends each fill out the complete tournament bracket before it starts, predicting **exact scores** for every match. Points are awarded based on accuracy. No betting, no fantasy mechanics — just fun among friends.
 
