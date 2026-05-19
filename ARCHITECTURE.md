@@ -74,15 +74,19 @@ flag_url    text
 ### `matches`
 ```
 id              uuid
-stage           text        -- 'group', 'r32', 'qf', 'sf', 'final'
-home_team_id    uuid → teams
-away_team_id    uuid → teams
+stage           text        -- 'group', 'r32', 'r16', 'qf', 'sf', 'final'
+home_team_id    uuid → teams   -- nullable: knockout teams unknown until prior round finishes
+away_team_id    uuid → teams   -- nullable: knockout teams unknown until prior round finishes
+home_slot_label text        -- e.g. "Winner Group A", "Winner M49" — used until team_id is resolved
+away_slot_label text
 kickoff_at      timestamptz
 home_score      int         -- null until played
 away_score      int         -- null until played
 status          text        -- 'scheduled', 'live', 'finished'
 api_match_id    text        -- ID from football-data.org
 ```
+
+Knockout matches are pre-seeded with `home_slot_label` / `away_slot_label` (e.g. "Winner Group A"). The cron resolves team IDs as prior-round results come in.
 
 ### `predictions`
 ```
@@ -106,8 +110,8 @@ points          int
 reason          text    -- 'exact_score', 'goal_difference', 'correct_result',
                         --  'correct_advancement_r32', 'correct_advancement_r16',
                         --  'correct_advancement_qf', 'correct_advancement_sf',
-                        --  'correct_advancement_final', 'group_winner',
-                        --  'correct_top2', 'correct_full_standings'
+                        --  'correct_advancement_final', 'correct_champion',
+                        --  'group_winner', 'correct_top2', 'correct_full_standings'
 ```
 
 ---
@@ -138,7 +142,14 @@ reason          text    -- 'exact_score', 'goal_difference', 'correct_result',
 | SF | 7 |
 | Final | 10 |
 
-Team advancement points stack on top of match result points. Getting the champion right with the exact final score is worth **15 points** (10 advancement + 5 exact score).
+Team advancement points stack on top of match result points.
+
+### Tournament champion
+| | Points |
+|---|---|
+| Correct champion (team that wins the Final) | 30 |
+
+Stacks on top of everything else. Max payout for nailing the champion + exact final score = **30 (champion) + 10 (Final advancement) + 5 (exact score) = 45 pts** on the final match alone.
 
 ### Knockout bracket approach
 - **Option A:** bracket flows from group stage predictions

@@ -55,6 +55,13 @@ A closed web app where a group of friends each fill out the complete tournament 
 | SF | 7 |
 | Final | 10 |
 
+**Tournament champion (stacks on top of everything else):**
+| | Points |
+|---|---|
+| Correct champion | 30 |
+
+Maximum possible payout for nailing the champion + exact final score: **30 (champion) + 10 (Final advancement) + 5 (exact score) = 45 pts** on the final match alone.
+
 ## Status
 - Repo initialized, full architecture documented in `ARCHITECTURE.md`
 - All decisions finalised — ready to scaffold
