@@ -1,0 +1,43 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.annexBadge {
+  font-size: 0.8125rem;
+  color: var(--muted);
+  font-family: var(--font-geist-mono), monospace;
+}
+
+.lockedBanner {
+  padding: 1.25rem 1.5rem;
+  border: 1px dashed var(--border);
+  border-radius: 0.5rem;
+  text-align: center;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.rounds {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+}

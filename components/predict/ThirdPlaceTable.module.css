@@ -1,0 +1,104 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.lede {
+  color: var(--muted);
+  font-size: 0.9375rem;
+  margin: 0;
+}
+
+.pending {
+  padding: 1.25rem 1.5rem;
+  border: 1px dashed var(--border);
+  border-radius: 0.5rem;
+  text-align: center;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.table th {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  background: rgba(37, 99, 235, 0.04);
+  border-bottom: 1px solid var(--border);
+}
+
+.posHeader {
+  width: 2.5rem;
+}
+
+.groupHeader {
+  width: 5rem;
+}
+
+.row {
+  border-top: 1px solid var(--border);
+}
+
+.row:first-of-type {
+  border-top: none;
+}
+
+.rowQualifies td {
+  background: var(--qualifies-bg);
+}
+
+.pos {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.group {
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.team {
+  font-weight: 500;
+}
+
+/* Visual divider between rank 8 and rank 9 — the qualify cutoff. */
+.row:nth-child(8) td {
+  border-bottom: 2px solid var(--accent);
+}
+
+@media (prefers-color-scheme: dark) {
+  .table th {
+    background: rgba(96, 165, 250, 0.06);
+  }
+}

@@ -40,9 +40,25 @@ export type GroupView = {
   matches: GroupMatchView[];
 };
 
+export type KnockoutStage = "r32" | "r16" | "qf" | "sf" | "third_place" | "final";
+
+export type KnockoutMatchView = {
+  matchId: string;
+  matchKey: string; // "M73".."M104"
+  stage: KnockoutStage;
+  kickoffAt: string;
+  homeSlotLabel: string;
+  awaySlotLabel: string;
+  locked: boolean;
+};
+
 export type PredictPageData = {
   groups: GroupView[];
-  /** Keyed by match_id. */
+  /** Knockout matches keyed by matchKey (M73..M104). Excludes M103 from predict UI. */
+  knockoutMatchesByKey: Record<string, KnockoutMatchView>;
+  /** Reverse lookup: matchKey -> matchId (for the save path). */
+  matchIdByKey: Record<string, string>;
+  /** Predictions keyed by match_id. */
   predictionsByMatch: Record<string, PredictionView>;
 };
 

@@ -9,10 +9,19 @@ type Props = {
   group: GroupView;
   predictionsByMatch: Record<string, PredictionView>;
   statusByMatch: Record<string, { status: SaveStatus; error: string | null }>;
+  qualifyingThirdGroups: Set<string> | null;
+  revertVersionByMatchId: Record<string, number>;
   onScoreChange: (matchId: string, homeScore: number | null, awayScore: number | null) => void;
 };
 
-export function GroupCard({ group, predictionsByMatch, statusByMatch, onScoreChange }: Props) {
+export function GroupCard({
+  group,
+  predictionsByMatch,
+  statusByMatch,
+  qualifyingThirdGroups,
+  revertVersionByMatchId,
+  onScoreChange,
+}: Props) {
   return (
     <section className={styles.card}>
       <header className={styles.header}>
@@ -33,9 +42,10 @@ export function GroupCard({ group, predictionsByMatch, statusByMatch, onScoreCha
         {group.matches.map((m) => {
           const p = predictionsByMatch[m.matchId];
           const s = statusByMatch[m.matchId] ?? { status: "idle" as const, error: null };
+          const revertVersion = revertVersionByMatchId[m.matchId] ?? 0;
           return (
             <MatchRow
-              key={m.matchId}
+              key={`${m.matchId}:${revertVersion}`}
               match={m}
               homeScore={p?.homeScore ?? null}
               awayScore={p?.awayScore ?? null}
@@ -48,9 +58,11 @@ export function GroupCard({ group, predictionsByMatch, statusByMatch, onScoreCha
         })}
       </div>
       <StandingsPreview
+        groupLetter={group.letter}
         teams={group.teams.map((t) => ({ id: t.id, name: t.name }))}
         matches={group.matches}
         predictionsByMatch={predictionsByMatch}
+        qualifyingThirdGroups={qualifyingThirdGroups}
       />
     </section>
   );

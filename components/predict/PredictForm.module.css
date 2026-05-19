@@ -1,14 +1,5 @@
 .form {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-}
-
-.knockoutHint {
-  padding: 1rem 1.25rem;
-  border: 1px dashed var(--border);
-  border-radius: 0.5rem;
-  color: var(--muted);
-  text-align: center;
-  font-style: italic;
+  gap: 2.5rem;
 }

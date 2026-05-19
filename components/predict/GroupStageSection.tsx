@@ -2,13 +2,23 @@
 
 import { useState } from "react";
 import type { GroupView, PredictionView, SaveStatus } from "@/lib/predict-types";
+import type { ThirdPlaceRanking } from "@/lib/bracket";
 import { GroupCard } from "./GroupCard";
+import { ThirdPlaceTable } from "./ThirdPlaceTable";
 import styles from "./GroupStageSection.module.css";
 
 type Props = {
   groups: GroupView[];
   predictionsByMatch: Record<string, PredictionView>;
   statusByMatch: Record<string, { status: SaveStatus; error: string | null }>;
+  /** Filled group-stage match count (group matches only — knockout predictions are NOT counted). */
+  filledCount: number;
+  /** Third-place ranking once all 72 group matches are predicted; null otherwise. */
+  thirdPlaceRanking: ThirdPlaceRanking[] | null;
+  /** Set of group letters whose 3rd-placed team qualifies (top 8). null when not yet derivable. */
+  qualifyingThirdGroups: Set<string> | null;
+  /** Bumps per match_id when a pending cascade edit is cancelled — forces the input to re-mount and revert to the saved value. */
+  revertVersionByMatchId: Record<string, number>;
   onScoreChange: (matchId: string, homeScore: number | null, awayScore: number | null) => void;
 };
 
@@ -26,13 +36,13 @@ export function GroupStageSection({
   groups,
   predictionsByMatch,
   statusByMatch,
+  filledCount,
+  thirdPlaceRanking,
+  qualifyingThirdGroups,
+  revertVersionByMatchId,
   onScoreChange,
 }: Props) {
   const [layout, setLayoutState] = useState<Layout>(readStoredLayout);
-
-  const filled = Object.values(predictionsByMatch).filter(
-    (p) => p.homeScore !== null && p.awayScore !== null,
-  ).length;
 
   function setLayout(next: Layout) {
     if (next === layout) return;
@@ -48,7 +58,7 @@ export function GroupStageSection({
         <div className={styles.headingGroup}>
           <h1 className={styles.heading}>Tipy na skupiny</h1>
           <div className={styles.progress} aria-live="polite">
-            Vyplněno <strong>{filled}</strong> z {TOTAL_GROUP_MATCHES} zápasů
+            Vyplněno <strong>{filledCount}</strong> z {TOTAL_GROUP_MATCHES} zápasů
           </div>
         </div>
         <div className={styles.layoutToggle} role="group" aria-label="Rozložení">
@@ -109,10 +119,13 @@ export function GroupStageSection({
             group={g}
             predictionsByMatch={predictionsByMatch}
             statusByMatch={statusByMatch}
+            qualifyingThirdGroups={qualifyingThirdGroups}
+            revertVersionByMatchId={revertVersionByMatchId}
             onScoreChange={onScoreChange}
           />
         ))}
       </div>
+      <ThirdPlaceTable ranking={thirdPlaceRanking} />
     </section>
   );
 }

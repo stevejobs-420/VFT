@@ -188,6 +188,30 @@ async function seedMatches(apiMatches: ApiMatch[]) {
   // Count per-stage so we can index slot labels.
   const stageCounters = new Map<ApiStage, number>();
 
+  // Compute match_key (M1..M104) by global sort: stage rank → kickoff → api id.
+  const stageRank: Record<ApiStage, number> = {
+    GROUP_STAGE: 1,
+    LAST_32: 2,
+    LAST_16: 3,
+    QUARTER_FINALS: 4,
+    SEMI_FINALS: 5,
+    THIRD_PLACE: 6,
+    FINAL: 7,
+  };
+  const matchKeyByApiId = new Map<number, string>();
+  apiMatches
+    .slice()
+    .sort((a, b) => {
+      if (stageRank[a.stage] !== stageRank[b.stage]) {
+        return stageRank[a.stage] - stageRank[b.stage];
+      }
+      const ka = new Date(a.utcDate).getTime();
+      const kb = new Date(b.utcDate).getTime();
+      if (ka !== kb) return ka - kb;
+      return a.id - b.id;
+    })
+    .forEach((m, i) => matchKeyByApiId.set(m.id, `M${i + 1}`));
+
   const rows = apiMatches.map((m) => {
     const stage = STAGE_MAP[m.stage];
     const idx = (stageCounters.get(m.stage) ?? 0) + 1;
@@ -215,6 +239,7 @@ async function seedMatches(apiMatches: ApiMatch[]) {
             ? "live"
             : "scheduled",
       api_match_id: String(m.id),
+      match_key: matchKeyByApiId.get(m.id),
     };
   });
 

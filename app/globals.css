@@ -4,6 +4,7 @@
   --border: #e5e5e5;
   --muted: #6b7280;
   --accent: #2563eb;
+  --qualifies-bg: #d1fae5;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,6 +14,7 @@
     --border: #2a2a2a;
     --muted: #9ca3af;
     --accent: #60a5fa;
+    --qualifies-bg: rgba(16, 185, 129, 0.18);
   }
 }
 

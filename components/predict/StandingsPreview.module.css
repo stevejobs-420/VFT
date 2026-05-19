@@ -27,6 +27,7 @@
   color: var(--muted);
   text-transform: none;
   font-size: 0.75rem;
+  border-top: none;
 }
 
 .posHeader,
@@ -55,10 +56,6 @@
   width: 2rem;
 }
 
-.row:nth-child(1) td {
-  border-top: 2px solid var(--accent);
-}
-
-.row:nth-child(2) td {
-  background: rgba(37, 99, 235, 0.03);
+.rowQualifies td {
+  background: var(--qualifies-bg);
 }

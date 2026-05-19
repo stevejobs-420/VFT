@@ -99,3 +99,81 @@ export function getCzechName(englishName: string): string {
   }
   return cs;
 }
+
+/**
+ * Flag emoji per Czech team name. Used in the champion banner and anywhere
+ * else we want a quick visual cue without loading the SVG crest.
+ */
+export const FLAG_EMOJI: Record<string, string> = {
+  // Group A
+  Mexiko: "🇲🇽",
+  "Jihoafrická republika": "🇿🇦",
+  "Jižní Korea": "🇰🇷",
+  "Česko": "🇨🇿",
+  // Group B
+  Kanada: "🇨🇦",
+  "Bosna a Hercegovina": "🇧🇦",
+  Katar: "🇶🇦",
+  "Švýcarsko": "🇨🇭",
+  // Group C
+  "Brazílie": "🇧🇷",
+  Maroko: "🇲🇦",
+  Haiti: "🇭🇹",
+  Skotsko: "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+  // Group D
+  USA: "🇺🇸",
+  Paraguay: "🇵🇾",
+  Austrálie: "🇦🇺",
+  Turecko: "🇹🇷",
+  // Group E
+  "Německo": "🇩🇪",
+  "Curaçao": "🇨🇼",
+  "Pobřeží slonoviny": "🇨🇮",
+  "Ekvádor": "🇪🇨",
+  // Group F
+  Nizozemsko: "🇳🇱",
+  Japonsko: "🇯🇵",
+  "Švédsko": "🇸🇪",
+  Tunisko: "🇹🇳",
+  // Group G
+  Belgie: "🇧🇪",
+  Egypt: "🇪🇬",
+  "Írán": "🇮🇷",
+  "Nový Zéland": "🇳🇿",
+  // Group H
+  "Španělsko": "🇪🇸",
+  Kapverdy: "🇨🇻",
+  "Saúdská Arábie": "🇸🇦",
+  Uruguay: "🇺🇾",
+  // Group I
+  Francie: "🇫🇷",
+  Senegal: "🇸🇳",
+  "Irák": "🇮🇶",
+  Norsko: "🇳🇴",
+  // Group J
+  Argentina: "🇦🇷",
+  "Alžírsko": "🇩🇿",
+  Rakousko: "🇦🇹",
+  "Jordánsko": "🇯🇴",
+  // Group K
+  Portugalsko: "🇵🇹",
+  "DR Kongo": "🇨🇩",
+  "Uzbekistán": "🇺🇿",
+  Kolumbie: "🇨🇴",
+  // Group L
+  Anglie: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  Chorvatsko: "🇭🇷",
+  Ghana: "🇬🇭",
+  Panama: "🇵🇦",
+};
+
+export function getFlagEmoji(czechName: string): string {
+  const flag = FLAG_EMOJI[czechName];
+  if (!flag) {
+    if (typeof console !== "undefined") {
+      console.warn(`Chybí vlajka pro tým "${czechName}". Doplň ji do lib/teams-cs.ts.`);
+    }
+    return "";
+  }
+  return flag;
+}
