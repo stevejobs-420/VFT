@@ -27,7 +27,7 @@ A closed web app where a group of friends each fill out the complete tournament 
 - Code, identifiers, comments, commit messages, and docs stay in English.
 - Tone: informal ("ty" / "tvůj"), since this is a friends-only app — not formal "vy".
 - No i18n framework for MVP. Write Czech strings inline in components, or centralize in a single `lib/strings.ts` if a string is reused across pages.
-- Team names: use the canonical Czech form where it exists (e.g. "Německo", "Španělsko", "Spojené státy"). Source the list at seeding time.
+- Team names: use the canonical Czech form where it exists, preferring the short common form ("Německo", "Španělsko", "USA", "DR Kongo"). Source the list at seeding time; the mapping lives in `lib/teams-cs.ts`.
 
 ## Planning convention
 

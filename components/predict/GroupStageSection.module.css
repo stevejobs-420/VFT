@@ -1,0 +1,118 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.headingGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.progress {
+  font-size: 0.9375rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.progress strong {
+  color: var(--foreground);
+  font-weight: 700;
+}
+
+.layoutToggle {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.toggleBtn {
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  font: inherit;
+  padding: 0.5rem 0.625rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggleBtn:hover {
+  color: var(--foreground);
+}
+
+.toggleBtn + .toggleBtn {
+  border-left: 1px solid var(--border);
+}
+
+.toggleBtnActive {
+  background: var(--accent);
+  color: white;
+}
+
+.toggleBtnActive:hover {
+  color: white;
+}
+
+.toggleIcon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.grid {
+  display: grid;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+.gridOne {
+  grid-template-columns: 1fr;
+  max-width: 950px;
+  margin-inline: auto;
+}
+
+.gridTwo {
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 720px) {
+  .gridTwo {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .grid {
+    animation: gridFade 240ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@keyframes gridFade {
+  from {
+    opacity: 0.35;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

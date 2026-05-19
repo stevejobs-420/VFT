@@ -1,13 +1,9 @@
 import { requireUser } from "@/lib/auth";
+import { loadPredictPageData } from "@/lib/predict-data";
+import { PredictForm } from "@/components/predict/PredictForm";
 
 export default async function PredictPage() {
-  await requireUser();
-  return (
-    <section>
-      <h1>Tvoje tipy</h1>
-      <p style={{ marginTop: "0.75rem", color: "var(--muted)" }}>
-        Tady budeš tipovat výsledky všech 104 zápasů. Nejdřív skupiny, pak vyřazovací část.
-      </p>
-    </section>
-  );
+  const user = await requireUser();
+  const data = await loadPredictPageData(user.id);
+  return <PredictForm initialData={data} />;
 }

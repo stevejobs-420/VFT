@@ -1,0 +1,64 @@
+.pending {
+  padding: 1rem;
+  color: var(--muted);
+  font-size: 0.9375rem;
+  border-top: 1px dashed var(--border);
+  text-align: center;
+  font-style: italic;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+  margin-top: 0.75rem;
+}
+
+.table th,
+.table td {
+  padding: 0.375rem 0.5rem;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+
+.table th {
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: none;
+  font-size: 0.75rem;
+}
+
+.posHeader,
+.teamHeader {
+  text-align: left;
+}
+
+.pos {
+  text-align: left;
+  color: var(--muted);
+  font-weight: 500;
+  width: 1.5rem;
+}
+
+.team {
+  text-align: left;
+  font-weight: 500;
+}
+
+.score {
+  width: 4rem;
+}
+
+.points {
+  font-weight: 600;
+  width: 2rem;
+}
+
+.row:nth-child(1) td {
+  border-top: 2px solid var(--accent);
+}
+
+.row:nth-child(2) td {
+  background: rgba(37, 99, 235, 0.03);
+}

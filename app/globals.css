@@ -88,9 +88,7 @@ a {
 .site-main {
   flex: 1;
   padding: 2rem 1.5rem;
-  max-width: 960px;
   width: 100%;
-  margin: 0 auto;
 }
 
 @media (prefers-color-scheme: dark) {

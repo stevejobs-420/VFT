@@ -28,8 +28,8 @@ export const TEAMS_CS: Record<string, string> = {
   Scotland: "Skotsko",
 
   // Group D
-  "United States": "Spojené státy",
-  USA: "Spojené státy",
+  "United States": "USA",
+  USA: "USA",
   Paraguay: "Paraguay",
   Australia: "Austrálie",
   Türkiye: "Turecko",
@@ -58,6 +58,7 @@ export const TEAMS_CS: Record<string, string> = {
   // Group H
   Spain: "Španělsko",
   "Cape Verde": "Kapverdy",
+  "Cape Verde Islands": "Kapverdy",
   "Cabo Verde": "Kapverdy",
   "Saudi Arabia": "Saúdská Arábie",
   Uruguay: "Uruguay",
@@ -76,9 +77,9 @@ export const TEAMS_CS: Record<string, string> = {
 
   // Group K
   Portugal: "Portugalsko",
-  "Congo DR": "Demokratická republika Kongo",
-  "DR Congo": "Demokratická republika Kongo",
-  "Democratic Republic of Congo": "Demokratická republika Kongo",
+  "Congo DR": "DR Kongo",
+  "DR Congo": "DR Kongo",
+  "Democratic Republic of Congo": "DR Kongo",
   Uzbekistan: "Uzbekistán",
   Colombia: "Kolumbie",
 
