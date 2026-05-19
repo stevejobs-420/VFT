@@ -10,6 +10,7 @@
     "seed": "tsx scripts/seed.ts",
     "magic-link": "tsx scripts/magic-link.ts",
     "extract-annex-c": "tsx scripts/extract-annex-c.ts",
+    "demo-predictions": "tsx scripts/demo-predictions.ts",
     "test": "vitest run"
   },
   "dependencies": {
