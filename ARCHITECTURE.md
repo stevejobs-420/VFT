@@ -243,7 +243,7 @@ Every subsequent visit → automatically logged in
 | Page | Description |
 |---|---|
 | `/` | Login (magic link + Google) |
-| `/predict` | Fill in exact scores for all 104 matches. Group stage → derived standings preview → R32 bracket (auto-seeded) → knockout scores up to Final. **Pin a "Your champion: 🇧🇷 Brazil — 30 pts" banner** prominently once the Final winner is filled in, so the high-stakes pick feels weighty. |
+| `/predict` | Fill in exact scores for all 104 matches. **Two-phase UX:** (1) user fills out all 72 group-stage scores; knockout stage is locked until group stage is 100% complete. (2) Once group stage is complete, the app derives standings + R32 layout (via Annex C) and unlocks the knockout bracket for the user to fill. **Pin a "Your champion: 🇧🇷 Brazil — 30 pts" banner** prominently once the Final winner is filled in, so the high-stakes pick feels weighty. **Edit-cascade caveat:** if the user goes back and edits a group score after starting knockouts, the bracket may reshape. Knockout picks are stored by team (not slot), so points logic is unaffected, but the bracket *visual* will shift — show a warning before letting them edit a locked-in group score. |
 | `/dashboard` | Leaderboard — all users ranked by total points. Show each user's predicted champion alongside their row. |
 | `/matches` | Full schedule with results and your prediction next to each |
 
