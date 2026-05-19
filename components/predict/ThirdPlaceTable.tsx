@@ -28,6 +28,12 @@ export function ThirdPlaceTable({ ranking }: Props) {
               <th className={styles.posHeader}>#</th>
               <th className={styles.groupHeader}>Skupina</th>
               <th className={styles.teamHeader}>Tým</th>
+              <th>Z</th>
+              <th>V</th>
+              <th>R</th>
+              <th>P</th>
+              <th>Skóre</th>
+              <th>B</th>
             </tr>
           </thead>
           <tbody>
@@ -42,6 +48,14 @@ export function ThirdPlaceTable({ ranking }: Props) {
                   <span aria-hidden="true">{getFlagEmoji(r.team)}</span>{" "}
                   <span>{r.team}</span>
                 </td>
+                <td className={styles.numCell}>{r.stats.played}</td>
+                <td className={styles.numCell}>{r.stats.won}</td>
+                <td className={styles.numCell}>{r.stats.drawn}</td>
+                <td className={styles.numCell}>{r.stats.lost}</td>
+                <td className={styles.score}>
+                  {r.stats.goalsFor}:{r.stats.goalsAgainst}
+                </td>
+                <td className={styles.points}>{r.stats.points}</td>
               </tr>
             ))}
           </tbody>

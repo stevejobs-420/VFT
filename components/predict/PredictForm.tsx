@@ -30,6 +30,7 @@ const ROUND_LABEL_CS: Record<ResolvedKnockoutMatch["round"], string> = {
 
 type Props = {
   initialData: PredictPageData;
+  initialLayout: "one" | "two";
 };
 
 type StatusEntry = { status: SaveStatus; error: string | null };
@@ -87,7 +88,7 @@ function buildKnockoutPredictions(
   return out;
 }
 
-export function PredictForm({ initialData }: Props) {
+export function PredictForm({ initialData, initialLayout }: Props) {
   const [predictionsByMatch, setPredictionsByMatch] = useState<Record<string, PredictionView>>(
     initialData.predictionsByMatch,
   );
@@ -477,6 +478,7 @@ export function PredictForm({ initialData }: Props) {
         thirdPlaceRanking={derived?.thirdPlaceRanking ?? null}
         qualifyingThirdGroups={qualifyingThirdGroupsSet}
         revertVersionByMatchId={revertVersionByMatchId}
+        initialLayout={initialLayout}
         onScoreChange={onGroupScoreChange}
       />
       <KnockoutSection

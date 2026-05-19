@@ -1,21 +1,63 @@
+/* Theme tokens. Three states:
+ *   - no data-theme attribute: follow OS preference
+ *   - data-theme="light":      force light, ignore OS
+ *   - data-theme="dark":       force dark, ignore OS
+ *
+ * To prevent flash-of-wrong-theme, layout.tsx ships an inline script that
+ * sets data-theme from localStorage before React paints.
+ */
+
 :root {
+  color-scheme: light;
   --background: #ffffff;
   --foreground: #171717;
   --border: #e5e5e5;
   --muted: #6b7280;
   --accent: #2563eb;
   --qualifies-bg: #d1fae5;
+  --success-fg: #059669;
+  --success-bg: #ecfdf5;
+  --success-border: #d1fae5;
+  --error-fg: #dc2626;
+  --accent-subtle: rgba(37, 99, 235, 0.08);
+  --accent-soft: rgba(37, 99, 235, 0.04);
+  --hover-overlay: rgba(0, 0, 0, 0.04);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
     --background: #0a0a0a;
     --foreground: #ededed;
     --border: #2a2a2a;
     --muted: #9ca3af;
     --accent: #60a5fa;
     --qualifies-bg: rgba(16, 185, 129, 0.18);
+    --success-fg: #34d399;
+    --success-bg: #064e3b;
+    --success-border: #065f46;
+    --error-fg: #f87171;
+    --accent-subtle: rgba(96, 165, 250, 0.12);
+    --accent-soft: rgba(96, 165, 250, 0.06);
+    --hover-overlay: rgba(255, 255, 255, 0.04);
   }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --border: #2a2a2a;
+  --muted: #9ca3af;
+  --accent: #60a5fa;
+  --qualifies-bg: rgba(16, 185, 129, 0.18);
+  --success-fg: #34d399;
+  --success-bg: #064e3b;
+  --success-border: #065f46;
+  --error-fg: #f87171;
+  --accent-subtle: rgba(96, 165, 250, 0.12);
+  --accent-soft: rgba(96, 165, 250, 0.06);
+  --hover-overlay: rgba(255, 255, 255, 0.04);
 }
 
 html {
@@ -91,10 +133,4 @@ a {
   flex: 1;
   padding: 2rem 1.5rem;
   width: 100%;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

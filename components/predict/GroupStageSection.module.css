@@ -82,22 +82,22 @@
   display: grid;
   gap: 1.25rem;
   width: 100%;
-}
-
-.gridOne {
-  grid-template-columns: 1fr;
-  max-width: 950px;
-  margin-inline: auto;
-}
-
-.gridTwo {
   grid-template-columns: 1fr 1fr;
 }
 
 @media (max-width: 720px) {
-  .gridTwo {
+  .grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* The bootstrap script sets data-layout="one" on <html> before React paints
+   when the user has explicitly chosen single-column. CSS attribute-driven
+   so the layout is correct on first paint with no flash. */
+:root[data-layout="one"] .grid {
+  grid-template-columns: 1fr;
+  max-width: 950px;
+  margin-inline: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {

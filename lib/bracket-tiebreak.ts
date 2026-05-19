@@ -161,6 +161,7 @@ export type ThirdPlaceRanking = {
   group: GroupLetter;
   rank: number; // 1..12
   qualifies: boolean;
+  stats: GroupStanding;
 };
 
 /**
@@ -183,5 +184,6 @@ export function rankThirdPlaced(
     group: t.group,
     rank: i + 1,
     qualifies: i < 8,
+    stats: t.stats,
   }));
 }

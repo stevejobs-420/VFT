@@ -92,26 +92,15 @@
 }
 
 .error {
-  color: #dc2626;
+  color: var(--error-fg);
   font-size: 0.875rem;
 }
 
 .success {
-  color: #059669;
+  color: var(--success-fg);
   font-size: 0.9375rem;
   padding: 1rem;
-  border: 1px solid #d1fae5;
+  border: 1px solid var(--success-border);
   border-radius: 0.375rem;
-  background: #ecfdf5;
-}
-
-@media (prefers-color-scheme: dark) {
-  .error {
-    color: #f87171;
-  }
-  .success {
-    background: #064e3b;
-    border-color: #065f46;
-    color: #a7f3d0;
-  }
+  background: var(--success-bg);
 }

@@ -113,11 +113,11 @@
 }
 
 .saved {
-  color: #059669;
+  color: var(--success-fg);
 }
 
 .error {
-  color: #dc2626;
+  color: var(--error-fg);
   cursor: help;
 }
 
@@ -153,17 +153,7 @@
 }
 
 .tieHint {
-  color: #dc2626;
-}
-
-@media (prefers-color-scheme: dark) {
-  .saved {
-    color: #34d399;
-  }
-  .error,
-  .tieHint {
-    color: #f87171;
-  }
+  color: var(--error-fg);
 }
 
 @media (max-width: 720px) {

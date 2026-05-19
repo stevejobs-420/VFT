@@ -98,26 +98,17 @@
 }
 
 .saved {
-  color: #059669;
+  color: var(--success-fg);
 }
 
 .error {
-  color: #dc2626;
+  color: var(--error-fg);
   cursor: help;
 }
 
 .locked {
   color: var(--muted);
   font-style: italic;
-}
-
-@media (prefers-color-scheme: dark) {
-  .saved {
-    color: #34d399;
-  }
-  .error {
-    color: #f87171;
-  }
 }
 
 @media (max-width: 720px) {

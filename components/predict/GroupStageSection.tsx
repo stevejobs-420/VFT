@@ -19,18 +19,15 @@ type Props = {
   qualifyingThirdGroups: Set<string> | null;
   /** Bumps per match_id when a pending cascade edit is cancelled — forces the input to re-mount and revert to the saved value. */
   revertVersionByMatchId: Record<string, number>;
+  /** Cookie-derived initial layout — same value on server and client so hydration matches. */
+  initialLayout: "one" | "two";
   onScoreChange: (matchId: string, homeScore: number | null, awayScore: number | null) => void;
 };
 
 type Layout = "one" | "two";
 
 const TOTAL_GROUP_MATCHES = 72;
-
-function readStoredLayout(): Layout {
-  if (typeof window === "undefined") return "two";
-  const v = window.localStorage.getItem("vft-predict-layout");
-  return v === "one" ? "one" : "two";
-}
+const ONE_YEAR_SECONDS = 60 * 60 * 24 * 365;
 
 export function GroupStageSection({
   groups,
@@ -40,15 +37,24 @@ export function GroupStageSection({
   thirdPlaceRanking,
   qualifyingThirdGroups,
   revertVersionByMatchId,
+  initialLayout,
   onScoreChange,
 }: Props) {
-  const [layout, setLayoutState] = useState<Layout>(readStoredLayout);
+  const [layout, setLayoutState] = useState<Layout>(initialLayout);
 
   function setLayout(next: Layout) {
     if (next === layout) return;
     setLayoutState(next);
-    if (typeof window !== "undefined") {
-      window.localStorage.setItem("vft-predict-layout", next);
+    if (typeof document !== "undefined") {
+      if (next === "one") {
+        document.documentElement.setAttribute("data-layout", "one");
+      } else {
+        document.documentElement.removeAttribute("data-layout");
+      }
+      // Cookie so the server renders the correct layout on next page load.
+      // max-age=0 to delete when reverting to "two" (the default).
+      const maxAge = next === "one" ? ONE_YEAR_SECONDS : 0;
+      document.cookie = `vft-predict-layout=${next};path=/;max-age=${maxAge};samesite=lax`;
     }
   }
 
@@ -109,10 +115,7 @@ export function GroupStageSection({
           </button>
         </div>
       </header>
-      <div
-        key={layout}
-        className={`${styles.grid} ${layout === "one" ? styles.gridOne : styles.gridTwo}`}
-      >
+      <div key={layout} className={styles.grid}>
         {groups.map((g) => (
           <GroupCard
             key={g.letter}
