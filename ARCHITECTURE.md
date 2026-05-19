@@ -111,16 +111,20 @@ flag_url    text
 ### `matches`
 ```
 id              uuid
-stage           text        -- 'group', 'r32', 'r16', 'qf', 'sf', 'final'
+match_key       text unique -- "M1".."M104" — stable FIFA bracket numbering
+                            --  (M1..M72 group, M73..M88 R32, M89..M96 R16,
+                            --   M97..M100 QF, M101..M102 SF, M103 3rd-place,
+                            --   M104 final). Added in migration 0002.
+stage           text        -- 'group', 'r32', 'r16', 'qf', 'sf', 'third_place', 'final'
 home_team_id    uuid → teams   -- nullable: knockout teams unknown until prior round finishes
 away_team_id    uuid → teams   -- nullable: knockout teams unknown until prior round finishes
-home_slot_label text        -- e.g. "Winner Group A", "Winner M49" — used until team_id is resolved
+home_slot_label text        -- e.g. "Vítěz skupiny A", "R32 zápas 1 (domácí)" — used until team_id is resolved
 away_slot_label text
 kickoff_at      timestamptz
 home_score      int         -- null until played
 away_score      int         -- null until played
 status          text        -- 'scheduled', 'live', 'finished'
-api_match_id    text        -- ID from football-data.org
+api_match_id    text unique -- ID from football-data.org
 ```
 
 Knockout matches are pre-seeded with `home_slot_label` / `away_slot_label` (e.g. "Winner Group A"). The cron resolves team IDs as prior-round results come in.
@@ -269,16 +273,27 @@ No i18n framework needed for MVP — write Czech strings inline. If a string is 
 
 ## Scaffolding order (recommended first PRs)
 
-1. **Next.js + TypeScript init** (App Router, CSS Modules, no Tailwind). Empty pages for `/`, `/predict`, `/dashboard`, `/matches`.
-2. **Supabase project + schema migration.** Tables: `teams`, `matches`, `predictions`, `points`, optional `profiles`. RLS policies: users read all, write only their own predictions.
-3. **Seed data.** Populate `teams` (48 teams + group letters) and `matches` (72 group matches with kickoff times + 32 knockout placeholders with `home_slot_label`/`away_slot_label`). Source: football-data.org once draw is final, or hand-loaded JSON if API lags.
-4. **Auth.** Supabase magic link + Google OAuth. Session provider in root layout. Admin user provisioning via Supabase dashboard.
-5. **Annex C R32 mapping.** Static JSON: keyed by sorted tuple of qualifying 3rd-place group letters → R32 slot assignments. Source: FIFA tournament regulations Annex C (495 entries).
-6. **Bracket derivation engine** (`lib/bracket.ts`). Pure function: `(predictions[]) → { groupStandings, r32Layout, knockoutSlots }`. Heavily unit-tested.
-7. **`/predict` page.** Group-stage form → live-derived standings preview → R32 auto-seed → knockout score inputs → champion banner.
-8. **Results sync cron** (`/api/results`). Hourly during tournament, lock predictions on kickoff.
-9. **Points engine** (`/api/points`). Idempotent recompute keyed by `match_id`. Reasons enumerated in the `points.reason` column.
+1. ✅ **Next.js + TypeScript init** (App Router, CSS Modules, no Tailwind). Empty pages for `/`, `/predict`, `/dashboard`, `/matches`.
+2. ✅ **Supabase project + schema migration.** Tables: `teams`, `matches`, `predictions`, `points`, optional `profiles`. RLS policies: users read all, write only their own predictions.
+3. ✅ **Seed data.** Populate `teams` (48 teams + group letters) and `matches` (72 group matches with kickoff times + 32 knockout placeholders with `home_slot_label`/`away_slot_label`). Source: football-data.org. `npm run seed`.
+4. ✅ **Auth.** Supabase magic link + Google OAuth + Resend SMTP. Admin user provisioning via Supabase dashboard.
+5. ✅ **Annex C R32 mapping.** `data/annex-c.json` keyed by sorted tuple of qualifying 3rd-place group letters → R32 slot assignments. 495 entries.
+6. ✅ **Bracket derivation engine** (`lib/bracket.ts`). Pure function: `deriveBracket(predictions[]) → { groupStandings, thirdPlaceRanking, annexCOption, qualifyingThirdGroups, r32 }`. Unit-tested.
+7. ✅ **`/predict` page.** Group-stage form → live-derived standings preview → R32 auto-seed → knockout score inputs → champion banner → edit-cascade dialog → theme/layout toggles.
+8. ✅ **Results sync cron** (`/api/results`). Hourly during tournament, time-based prediction locking. `vercel.json` schedule + `CRON_SECRET` auth.
+9. **Points engine** (`/api/points`). Idempotent recompute keyed by `match_id`. Reasons enumerated in the `points.reason` column. Triggered by results cron via `recomputeQueue` (currently a TODO hook in `app/api/results/route.ts`).
 10. **`/dashboard` + `/matches` pages.** Read-only views over computed points.
+
+## Dev tooling
+
+Scripts under `scripts/`, invoked via `npm run <name>`:
+
+- `seed` — fetches teams + matches from football-data.org, writes to DB (idempotent upsert on `api_team_id` / `api_match_id`).
+- `extract-annex-c` — one-shot Annex C extraction from the FIFA regulations PDF.
+- `magic-link -- <email>` — generates a sign-in URL via the Supabase admin API, bypassing email entirely. Useful when the email rate limit kicks in.
+- `demo-predictions -- N [--reset]` — creates N demo users (Czech names) with randomly-generated predictions for all 103 prediction-eligible matches. Idempotent; `--reset` deletes all demo-* users.
+
+UI preferences (light/dark theme, predict-page column layout) are stored as **cookies** read on the server in `app/layout.tsx` and `app/predict/page.tsx`. The cookie values are stamped onto `<html data-theme="..." data-layout="...">` so the first paint already reflects the user's choice — no client-side bootstrap script, no FOUC, no hydration mismatch.
 
 ---
 

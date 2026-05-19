@@ -90,7 +90,38 @@ Before starting a non-trivial PR (multi-file, architectural, or a step in `ARCHI
 Maximum possible payout for nailing the champion + exact final score: **30 (champion) + 10 (Final advancement) + 5 (exact score) = 45 pts** on the final match alone.
 
 ## Status
-- Repo initialized, full architecture documented in `ARCHITECTURE.md`
-- All design decisions finalised — ready to scaffold
-- football-data.org confirmed: WC 2026 included in free tier (10 req/min)
-- **Next step:** start coding in VS Code. See `ARCHITECTURE.md` → "Scaffolding order" for the recommended PR sequence (Next.js init → Supabase schema → seed data → auth → Annex C JSON → bracket engine → predict page → results cron → points engine → dashboard).
+
+**Done (committed to master):**
+1. ✅ Next.js + TypeScript + CSS Modules scaffold with Czech page stubs
+2. ✅ Supabase schema + clients (migration 0001) — `teams`, `matches`, `predictions`, `points`, `profiles` with RLS
+3. ✅ Seed teams + matches from football-data.org (`npm run seed`) — 48 teams + 104 matches, idempotent
+4. ✅ Supabase auth (magic link + Google OAuth) with Resend SMTP — sender `info@vft.vojtechsykora.cz`
+5. ✅ Annex C R32 mapping (`data/annex-c.json`, 495 entries) + extractor (`npm run extract-annex-c`)
+6. ✅ Bracket derivation engine (`lib/bracket.ts` `deriveBracket`) — pure function, full tiebreaker chain, unit-tested
+7. ✅ `/predict` page — group form (PR 07a) + knockouts (PR 07b) with derived bracket, champion banner, edit-cascade dialog, light/dark theme toggle, layout toggle, third-place table with stats. Cookie-based UI prefs (no FOUC)
+8. ✅ Results sync cron (`/api/results`) — auth via `CRON_SECRET`, time-based prediction locking, idempotent UPDATE-per-row. `vercel.json` schedules hourly (Hobby tier downgrades to daily — see README for cron-job.org fallback)
+9. ✅ Demo data — `npm run demo-predictions -- N` creates N demo users (Czech names) with random predictions for all 103 prediction-eligible matches. Idempotent, `--reset` flag for cleanup
+
+**Currently in DB (Supabase project `gwfymtxglmhbsdomuivs`):**
+- 48 teams · 104 matches · 10 demo users · ~1030 demo predictions
+- Migration 0002 (match_key column M1..M104) applied
+- Real admin user (`petr.ptac3k@seznam.cz`) for testing the magic-link flow
+
+**Next steps (in scaffolding order):**
+- **PR 09 — Points engine** (`/api/points`): consume the cron's `recomputeQueue` TODO hook from `app/api/results/route.ts`, walk every prediction × actual match result, write to `points` table (already created in PR 02 schema). Use the demo data for end-to-end validation — should produce a varied leaderboard.
+- **PR 10 — `/dashboard` + `/matches` pages**: render leaderboard from `points`, render schedule + own-prediction vs result. Both pages currently stubs.
+- **Future** — homepage with rules + tiebreaker explanation (FIFA Article 13: h2h before overall GD, opposite of UEFA — surprised one user already); SMTP polish; mobile bracket-tree visual.
+
+See `.claude/output/plan/01..08-*.md` for the full plan archive (one per PR). When picking up a non-trivial chunk, invoke the `planner` subagent per the convention above.
+
+**Useful dev commands:**
+```
+npm run dev                          # localhost:3000
+npm run test                         # vitest (36 tests across bracket, advance-bracket, bracket-diff, annex-c, results-sync)
+npm run lint                         # eslint
+npm run build                        # production build
+npm run seed                         # reseed teams + matches from football-data.org
+npm run demo-predictions -- 10       # create/refresh 10 demo users
+npm run magic-link -- some@email.cz  # generate a sign-in URL bypassing email
+curl -H "Authorization: Bearer $CRON_SECRET" http://localhost:3000/api/results  # manually trigger results sync
+```
